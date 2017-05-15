@@ -1,0 +1,7 @@
+#Mon May 15 15:48:36 VET 2017
+base.0=C\:\\Users\\Sahid Reyes\\Desktop\\LoginExample\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_a198e1260383d4226356ba8ec0da57827ed0a730
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\Sahid Reyes\\Desktop\\LoginExample\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_4c7bd78a09c865cf2c5a5b28d3b29cb9790cfd44\\classes.dex
+base.1=C\:\\Users\\Sahid Reyes\\Desktop\\LoginExample\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_4c7bd78a09c865cf2c5a5b28d3b29cb9790cfd44
+file.0=C\:\\Users\\Sahid Reyes\\Desktop\\LoginExample\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_a198e1260383d4226356ba8ec0da57827ed0a730\\classes.dex
