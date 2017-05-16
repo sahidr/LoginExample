@@ -1,11 +1,9 @@
 package com.idbcgroup.loginexample;
 
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.net.Uri;
 import android.os.AsyncTask;
-import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -15,15 +13,15 @@ import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import org.json.JSONException;
-
 import java.io.BufferedWriter;
 import java.io.IOException;
 import java.io.OutputStream;
 import java.io.OutputStreamWriter;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 
 public class LoginActivity extends AppCompatActivity {
@@ -60,11 +58,16 @@ public class LoginActivity extends AppCompatActivity {
             public void onClick(View v) {
                 String phone_number = phone.getText().toString();
                 String password = pwd.getText().toString();
-                load.setVisibility(View.VISIBLE);
-                Toast.makeText(LoginActivity.this, "Connecting...", Toast.LENGTH_SHORT).show();
-                SignIn login = new SignIn();
-                login.execute(phone_number, password);
-                //load.setVisibility(View.GONE);
+
+                Pattern p = Pattern.compile("^[+]?[0-9]{10,13}$");
+                Matcher m = p.matcher(phone_number);
+                if (m.matches()){
+                    Toast.makeText(LoginActivity.this, "Connecting...", Toast.LENGTH_SHORT).show();
+                    SignIn login = new SignIn();
+                    login.execute(phone_number, password);
+                } else {
+                    Toast.makeText(LoginActivity.this, "Invalid Phone Number", Toast.LENGTH_SHORT).show();
+                }
             }
         });
     }
@@ -75,12 +78,13 @@ public class LoginActivity extends AppCompatActivity {
 
         @Override
         protected void onPreExecute() {
+            load.setVisibility(View.VISIBLE);
         }
 
         @Override
         protected Integer doInBackground(String... strings) {
 
-            Integer result = 0;
+            Integer result = -1;
             try {
 
                 URL url = new URL("http://agruppastage.herokuapp.com/api-token-auth/");
@@ -88,8 +92,8 @@ public class LoginActivity extends AppCompatActivity {
                 urlConnection.setDoOutput(true);
                 urlConnection.setDoInput(true);
                 urlConnection.setRequestMethod("POST");
-                urlConnection.setReadTimeout(10000);
-                urlConnection.setConnectTimeout(10000);
+                urlConnection.setReadTimeout(5000);
+                urlConnection.setConnectTimeout(7000);
 
                 Uri.Builder builder = new Uri.Builder()
                         .appendQueryParameter("password", strings[1])
@@ -103,8 +107,7 @@ public class LoginActivity extends AppCompatActivity {
                 writer.close();
                 toUrl.close();
                 urlConnection.connect();
-                JSONResponseController jcontroller = new JSONResponseController();
-                APIResponse api_response = jcontroller.getJsonResponse(urlConnection);
+                APIResponse api_response = JSONResponseController.getJsonResponse(urlConnection);
 
                 if (api_response != null) {
                     Log.d("API_RESPONSE","status: " + api_response.getStatus());
@@ -134,10 +137,7 @@ public class LoginActivity extends AppCompatActivity {
                 } else {
                     Log.d("JSON EMPTY", "Null");
                 }
-                urlConnection.disconnect();
-            } catch (IOException e) {
-                e.printStackTrace();
-            } catch (JSONException e) {
+            } catch (IOException | JSONException e) {
                 e.printStackTrace();
             }
             return result;
@@ -154,9 +154,11 @@ public class LoginActivity extends AppCompatActivity {
                 System.out.println("ID: " + id + "\nToken: " + token + "\nRole: " + role);
                 Toast.makeText(getBaseContext(),"Welcome "+role, Toast.LENGTH_SHORT).show();
                 Intent i = new Intent(LoginActivity.this, MainActivity.class);
+                i.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 startActivity(i);
             }
             load.setVisibility(View.GONE);
+            finish();
         }
     }
 }

@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\Sahid Reyes\\Documents\\Android Studio Projects\\LoginExample\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "outputFile": "C:\\Users\\Rogelio\\Documents\\LoginExample\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 96
                 },
                 "from": {
-                    "file": "C:\\Users\\Sahid Reyes\\.android\\build-cache\\86f64ffe5ddd481c200e54085052468743024296\\output\\res\\values\\values.xml",
+                    "file": "C:\\Users\\Rogelio\\.android\\build-cache\\d9034c4b6a10e6d616e9b9e4f04d4cd1bf968cf6\\output\\res\\values\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -24,7 +24,7 @@
         ]
     },
     {
-        "outputFile": "C:\\Users\\Sahid Reyes\\Desktop\\LoginExample\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "outputFile": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
         "map": [
             {
                 "to": {
@@ -35,7 +35,7 @@
                     "endOffset": 96
                 },
                 "from": {
-                    "file": "C:\\Users\\Sahid Reyes\\.android\\build-cache\\86f64ffe5ddd481c200e54085052468743024296\\output\\res\\values\\values.xml",
+                    "file": "C:\\Users\\Rogelio\\.android\\build-cache\\d9034c4b6a10e6d616e9b9e4f04d4cd1bf968cf6\\output\\res\\values\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,

@@ -3,129 +3,39 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\Sahid Reyes\.android\build-cache\c648078917b7db67c2c945fdc0b0fec62db38ef5\output\jars\classes.jar"
+        jar="C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
-        <dex dex="C:\Users\Sahid Reyes\Desktop\LoginExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9b903cfabb0f02ab98d4a3d7b3ae52821bdc117c\classes.dex" />
+        sha1="441d216d41e4f7f4249bcb36137cdc8ca249399b">
+        <dex dex="C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_256fd78cf69e27832e6ee6ecef24ff5b6c695bc4\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Public\Sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
-        <dex dex="C:\Users\Sahid Reyes\Desktop\LoginExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.2_7bcf9e43ca7d9bb0b31084c9ee1b52385ded8293\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Sahid Reyes\.android\build-cache\3658b299ffc5270330983b3b973990a934e2621d\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\Sahid Reyes\Desktop\LoginExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_22029a85739f097d5e5d650e353e6b3f142caea1\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Sahid Reyes\.android\build-cache\4775e867236ea3ec63f291b15f8c174b70d84afe\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
-        <dex dex="C:\Users\Sahid Reyes\Desktop\LoginExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_325ce08c369c1156b760af36fb65e1767f3e75f6\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Sahid Reyes\Desktop\LoginExample\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="95639d3009a9d05cf0df3d2a6889b54d2f5bc6bc">
-        <dex dex="C:\Users\Sahid Reyes\Desktop\LoginExample\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_a198e1260383d4226356ba8ec0da57827ed0a730\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Sahid Reyes\.android\build-cache\e32b61fd8177395122faac52588c759f880ef1ee\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
-        <dex dex="C:\Users\Sahid Reyes\Desktop\LoginExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_15423c5a88350ad7e06d84db6e8aacd269f575c2\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Sahid Reyes\.android\build-cache\0282c3d3b4af2c3264118cf085eb3730c31a81b0\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
-        <dex dex="C:\Users\Sahid Reyes\Desktop\LoginExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9a7bb433aee82feec5decdfbe73b5f0895ae7401\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Sahid Reyes\.android\build-cache\83851a2f62d9d3f559f4e80fb09ba7eace1c186b\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
-        <dex dex="C:\Users\Sahid Reyes\Desktop\LoginExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ee4a59412590c11d161ba745bd5d94706dc12212\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Public\Sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
-        <dex dex="C:\Users\Sahid Reyes\Desktop\LoginExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.3.1_235560b62f21912a64032f5cb50af4cbc5e245f8\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Sahid Reyes\.android\build-cache\cd0eb0fd762c04457a21289395ab259b20ab82ed\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
-        <dex dex="C:\Users\Sahid Reyes\Desktop\LoginExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e360c40a111fd36a250d41c5fb03f609f10e8006\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Sahid Reyes\Desktop\LoginExample\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="C:\Users\Rogelio\Documents\LoginExample\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
-        <dex dex="C:\Users\Sahid Reyes\Desktop\LoginExample\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_4c7bd78a09c865cf2c5a5b28d3b29cb9790cfd44\classes.dex" />
+        <dex dex="C:\Users\Rogelio\Documents\LoginExample\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_e17dea1281eea4f6587f8365cc94b7189fe955c5\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Sahid Reyes\.android\build-cache\50e76eb56ffc593e9a395c4220301171d95f1f89\output\jars\classes.jar"
+        jar="C:\Users\Rogelio\Documents\LoginExample\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
-        <dex dex="C:\Users\Sahid Reyes\Desktop\LoginExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e36d314e5dfb841d6070f984702ce5ab7428765c\classes.dex" />
+        sha1="45c9cd74969c961e768f78dd79fdcf443284f765">
+        <dex dex="C:\Users\Rogelio\Documents\LoginExample\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_4f5fb148de43b7a428a19613306c974570667d9c\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Sahid Reyes\.android\build-cache\4cbb635bc736b4253b3e5897cd0033caa92e09e5\output\jars\classes.jar"
+        jar="C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
-        <dex dex="C:\Users\Sahid Reyes\Desktop\LoginExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_15af30f92dca409ded632d57f436a17871048fa0\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Sahid Reyes\.android\build-cache\41b2df839daca533428f12e5faf25b6ce5ca3a4e\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
-        <dex dex="C:\Users\Sahid Reyes\Desktop\LoginExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_029155849e344f69e8ae2c67c1dc5659451212ff\classes.dex" />
+        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
+        <dex dex="C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_d31e1d2ca5d346392a2d9d75b77ae303e9d511cf\classes.dex" />
     </item>
 
 </items>

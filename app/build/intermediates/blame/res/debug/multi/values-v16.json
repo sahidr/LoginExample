@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\Sahid Reyes\\Desktop\\LoginExample\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
+        "outputFile": "C:\\Users\\Rogelio\\Documents\\LoginExample\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 116
                 },
                 "from": {
-                    "file": "C:\\Users\\Sahid Reyes\\.android\\build-cache\\83851a2f62d9d3f559f4e80fb09ba7eace1c186b\\output\\res\\values-v16\\values-v16.xml",
+                    "file": "C:\\Users\\Rogelio\\.android\\build-cache\\6d3f0a98d88e983e6e33b9ee69f2ea1c07c64d73\\output\\res\\values-v16\\values-v16.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -24,7 +24,7 @@
         ]
     },
     {
-        "outputFile": "C:\\Users\\Sahid Reyes\\Documents\\Android Studio Projects\\LoginExample\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
+        "outputFile": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
         "map": [
             {
                 "to": {
@@ -35,7 +35,7 @@
                     "endOffset": 116
                 },
                 "from": {
-                    "file": "C:\\Users\\Sahid Reyes\\.android\\build-cache\\83851a2f62d9d3f559f4e80fb09ba7eace1c186b\\output\\res\\values-v16\\values-v16.xml",
+                    "file": "C:\\Users\\Rogelio\\.android\\build-cache\\6d3f0a98d88e983e6e33b9ee69f2ea1c07c64d73\\output\\res\\values-v16\\values-v16.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
