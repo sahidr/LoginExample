@@ -1,4 +1,4 @@
-#Tue May 16 14:03:00 VET 2017
+#Tue May 16 14:35:21 VET 2017
 base.0=C\:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_256fd78cf69e27832e6ee6ecef24ff5b6c695bc4
 renamed.1=classes.dex
 renamed.0=classes2.dex

@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Tue May 16 14:02:51 VET 2017
+#Tue May 16 14:35:18 VET 2017
 210.set=ANDROID_RESOURCE
 14.set=ANDROID_RESOURCE
 180.file=C\:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\abc_ic_clear_material.xml

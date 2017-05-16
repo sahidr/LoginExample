@@ -145,20 +145,18 @@ public class LoginActivity extends AppCompatActivity {
 
         protected void onPostExecute(Integer result){
             if (result == -1){
-                System.out.println("Empty Fields");
-                Toast.makeText(getBaseContext(),"Fields must be filled", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getBaseContext(),"Please Try Again", Toast.LENGTH_SHORT).show();
             } else if (result==0){
-                System.out.println("User not Found");
-                Toast.makeText(getBaseContext(),"User Not Found, Please SignUp", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getBaseContext(),"User Not Found, Please Sign Up", Toast.LENGTH_SHORT).show();
             } else if (result == 1){
                 System.out.println("ID: " + id + "\nToken: " + token + "\nRole: " + role);
-                Toast.makeText(getBaseContext(),"Welcome "+role, Toast.LENGTH_SHORT).show();
+                Toast.makeText(getBaseContext(),"Welcome "+role+"!", Toast.LENGTH_SHORT).show();
                 Intent i = new Intent(LoginActivity.this, MainActivity.class);
                 i.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 startActivity(i);
+                finish();
             }
             load.setVisibility(View.GONE);
-            finish();
         }
     }
 }
