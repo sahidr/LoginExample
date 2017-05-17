@@ -145,7 +145,7 @@ public class LoginActivity extends AppCompatActivity {
 
         protected void onPostExecute(Integer result){
             if (result == -1){
-                    Toast.makeText(getBaseContext(),"Please Try Again", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getBaseContext(),"Please Try Again", Toast.LENGTH_SHORT).show();
             } else if (result==0){
                 Toast.makeText(getBaseContext(),"User Not Found, Please Sign Up", Toast.LENGTH_SHORT).show();
             } else if (result == 1){

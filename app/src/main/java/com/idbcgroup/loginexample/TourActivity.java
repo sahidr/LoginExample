@@ -18,6 +18,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 
+import android.widget.ImageView;
 import android.widget.TextView;
 
 public class TourActivity extends AppCompatActivity {
@@ -36,8 +37,12 @@ public class TourActivity extends AppCompatActivity {
      * The {@link ViewPager} that will host the section contents.
      */
     private ViewPager mViewPager;
-    private Integer page_count;
-    FloatingActionButton fab;
+    private TextView start;
+    private TextView skip;
+    private ImageView page0;
+    private ImageView page1;
+    private ImageView page2;
+    private ImageView[] dots;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,45 +55,42 @@ public class TourActivity extends AppCompatActivity {
         // primary sections of the activity.
         mSectionsPagerAdapter = new SectionsPagerAdapter(getSupportFragmentManager());
 
-        fab = (FloatingActionButton) findViewById(R.id.fab);
+        start = (TextView) findViewById(R.id.start);
+        skip = (TextView) findViewById(R.id.skip);
+        page0 = (ImageView) findViewById(R.id.page0);
+        page1 = (ImageView) findViewById(R.id.page1);
+        page2 = (ImageView) findViewById(R.id.page2);
+        dots = new ImageView[]{page0, page1, page2};
 
         // Set up the ViewPager with the sections adapter.
         mViewPager = (ViewPager) findViewById(R.id.container);
         mViewPager.setAdapter(mSectionsPagerAdapter);
-
+        //mViewPager.setBackgroundColor(0xAA00AAFF);
         mViewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
+
             @Override
             public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
-
-                /*
-                color update
-
-                int colorUpdate = (Integer) evaluator.evaluate(positionOffset, colorList[position], colorList[position == 2 ? position : position + 1]);
-                mViewPager.setBackgroundColor(colorUpdate);
-                */
 
             }
 
             @Override
             public void onPageSelected(int position) {
 
-                page_count = position;
-
-                //updateIndicators(page);
+                updateIndicators(position);
 
                 switch (position) {
                     case 0:
-                        mViewPager.setBackgroundColor(0x00AAFF);
+                        mViewPager.setBackgroundColor(0xA000AAFF);
                         break;
                     case 1:
-                        mViewPager.setBackgroundColor(0X00FFAA);
+                        mViewPager.setBackgroundColor(0XA000FFAA);
                         break;
                     case 2:
-                        mViewPager.setBackgroundColor(0xAAAA00);
+                        mViewPager.setBackgroundColor(0xA0FFFF00);
                         break;
                 }
-
-                fab.setVisibility(position == 2 ? View.VISIBLE : View.INVISIBLE);
+                skip.setVisibility(position == 2 ? View.INVISIBLE : View.VISIBLE);
+                start.setVisibility(position == 2 ? View.VISIBLE : View.INVISIBLE);
 
             }
 
@@ -98,7 +100,7 @@ public class TourActivity extends AppCompatActivity {
             }
         });
 
-        fab.setOnClickListener(new View.OnClickListener() {
+        start.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 //Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
@@ -113,6 +115,30 @@ public class TourActivity extends AppCompatActivity {
             }
         });
 
+        skip.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+                //        .setAction("Action", null).show();
+                SharedPreferences.Editor editor = getSharedPreferences("Tour", 0).edit();
+                editor.putBoolean("visited", true);
+                editor.apply();
+                Intent i = new Intent(TourActivity.this, LoginActivity.class);
+                i.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                startActivity(i);
+                finish();
+            }
+        });
+
+    }
+
+    void updateIndicators(int position) {
+        for (int i = 0; i < 3; i++) {
+            dots[i].setImageResource(
+                    i == position ? android.R.drawable.radiobutton_on_background :
+                            android.R.drawable.radiobutton_off_background
+            );
+        }
     }
 
 
@@ -148,6 +174,10 @@ public class TourActivity extends AppCompatActivity {
          */
         private static final String ARG_SECTION_NUMBER = "section_number";
 
+        private ImageView img;
+
+        private Integer[] tour_imgs = {R.drawable.graphic, R.drawable.map, R.drawable.tree};
+
         public PlaceholderFragment() {
         }
 
@@ -169,6 +199,11 @@ public class TourActivity extends AppCompatActivity {
             View rootView = inflater.inflate(R.layout.fragment_tour, container, false);
             TextView textView = (TextView) rootView.findViewById(R.id.section_label);
             textView.setText(getString(R.string.section_format, getArguments().getInt(ARG_SECTION_NUMBER)));
+
+            img = (ImageView) rootView.findViewById(R.id.app_img);
+            img.setBackgroundResource(tour_imgs[getArguments().getInt(ARG_SECTION_NUMBER) - 1]);
+
+
             return rootView;
         }
     }

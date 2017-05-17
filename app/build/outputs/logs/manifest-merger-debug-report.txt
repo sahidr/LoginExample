@@ -66,7 +66,7 @@ ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\Andr
 	android:name
 		ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:24:13-42
 activity#com.idbcgroup.loginexample.TourActivity
-ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:26:9-29:56
+ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:26:9-29:46
 	android:label
 		ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:28:13-56
 	android:theme
