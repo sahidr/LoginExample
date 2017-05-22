@@ -3,21 +3,30 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jar="C:\Users\Rogelio\.android\build-cache\ed33bbb93755c5d7a9abd840f05350ee601d48a8\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="b0266e0dead5dd25fda96b7c5a484752ed907596">
-        <dex dex="C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_256fd78cf69e27832e6ee6ecef24ff5b6c695bc4\classes.dex" />
+        sha1="9ed08fab37c3a572da1d9ed2bf2e36c8d3e2bc48">
+        <dex dex="C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_859dbdf4110ab84830f613359bb340096ba5e10b\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Rogelio\Documents\LoginExample\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="C:\Users\Rogelio\.android\build-cache\62366833049ee7a44dcee5785e99b4f0e47a1488\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
-        <dex dex="C:\Users\Rogelio\Documents\LoginExample\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_e17dea1281eea4f6587f8365cc94b7189fe955c5\classes.dex" />
+        sha1="6d0d5e86f5b7203834df01ed78ebfdd5cbf74d48">
+        <dex dex="C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e2cea5b9e4ffd24f7edca226c7bfff3873575a8c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Rogelio\.android\build-cache\4397b74c6cde7f61111b7d45778b538e5ac7eb00\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5803db663655ef5cb38c6bcb17ba326fdb9edfbd">
+        <dex dex="C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4d5dff43e035c1a85b35f3359be27d212ef7327d\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -36,6 +45,33 @@
         revision="25.0.2"
         sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
         <dex dex="C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_d31e1d2ca5d346392a2d9d75b77ae303e9d511cf\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="01b2932956dfd530cae493cc1743e4d851f1cfb5">
+        <dex dex="C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_256fd78cf69e27832e6ee6ecef24ff5b6c695bc4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Rogelio\Documents\LoginExample\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
+        <dex dex="C:\Users\Rogelio\Documents\LoginExample\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_e17dea1281eea4f6587f8365cc94b7189fe955c5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Rogelio\.android\build-cache\90accdfc03ee73ce245f19f75225b2de6474f04a\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="dd1d0d84da2cff18f741c63a9c3af7d9aa89fdd6">
+        <dex dex="C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_678c83c8a9145626fc3976974717cd205202d04e\classes.dex" />
     </item>
 
 </items>

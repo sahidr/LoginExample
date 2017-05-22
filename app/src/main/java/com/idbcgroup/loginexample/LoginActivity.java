@@ -28,6 +28,7 @@ public class LoginActivity extends AppCompatActivity {
     private EditText phone;
     private EditText pwd;
     private Button submit;
+    private Button register;
     private ProgressBar load;
     private TextView requestpwd;
     private String id = "";
@@ -44,18 +45,35 @@ public class LoginActivity extends AppCompatActivity {
         submit = (Button) findViewById(R.id.submit);
         load = (ProgressBar) findViewById(R.id.load);
         requestpwd = (TextView) findViewById(R.id.rpwd);
+        register =(Button) findViewById(R.id.signup);
 
         requestpwd.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(getBaseContext(),"Password Recovery Intent",Toast.LENGTH_SHORT).show();
+                //Toast.makeText(getBaseContext(),"Password Recovery Intent",Toast.LENGTH_SHORT).show();
+                Intent i = new Intent(LoginActivity.this, PasswordRestoreActivity.class);
+                i.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                startActivity(i);
+                finish();
+            }
+        });
+
+        register.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent i = new Intent(LoginActivity.this, RegisterActivity.class);
+                i.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                startActivity(i);
+                finish();
+
             }
         });
 
         submit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String phone_number = phone.getText().toString();
+                /*String phone_number = phone.getText().toString();
                 String password = pwd.getText().toString();
 
                 String regex = "^[+]?[0-9]{10,13}$";
@@ -66,7 +84,12 @@ public class LoginActivity extends AppCompatActivity {
                     login.execute(phone_number, password);
                 } else {
                     Toast.makeText(LoginActivity.this, "Invalid Phone Number", Toast.LENGTH_SHORT).show();
-                }
+                }*/
+                Toast.makeText(LoginActivity.this, "WELCOME!", Toast.LENGTH_SHORT).show();
+                Intent i = new Intent(LoginActivity.this, MapsActivity.class);
+                i.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                startActivity(i);
+                finish();
             }
         });
     }

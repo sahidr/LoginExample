@@ -36,12 +36,16 @@
         "source": "C:\\Users\\Rogelio\\.android\\build-cache\\6d3f0a98d88e983e6e33b9ee69f2ea1c07c64d73\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
     },
     {
-        "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
-        "source": "C:\\Users\\Rogelio\\.android\\build-cache\\2715866d6b7b5b3f07b31175ef47aa62322a87e5\\output\\res\\layout\\design_navigation_menu.xml"
+        "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_maps.xml",
+        "source": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\src\\main\\res\\layout\\activity_maps.xml"
     },
     {
         "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
         "source": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
+        "source": "C:\\Users\\Rogelio\\.android\\build-cache\\2715866d6b7b5b3f07b31175ef47aa62322a87e5\\output\\res\\layout\\design_navigation_menu.xml"
     },
     {
         "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
@@ -50,6 +54,10 @@
     {
         "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
         "source": "C:\\Users\\Rogelio\\.android\\build-cache\\2715866d6b7b5b3f07b31175ef47aa62322a87e5\\output\\res\\layout\\design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_map.xml",
+        "source": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\src\\main\\res\\layout\\activity_map.xml"
     },
     {
         "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
@@ -108,6 +116,10 @@
         "source": "C:\\Users\\Rogelio\\.android\\build-cache\\2715866d6b7b5b3f07b31175ef47aa62322a87e5\\output\\res\\layout\\design_bottom_sheet_dialog.xml"
     },
     {
+        "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_dashboard.xml",
+        "source": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\src\\main\\res\\layout\\content_dashboard.xml"
+    },
+    {
         "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
         "source": "C:\\Users\\Rogelio\\.android\\build-cache\\2715866d6b7b5b3f07b31175ef47aa62322a87e5\\output\\res\\layout\\design_layout_snackbar_include.xml"
     },
@@ -122,6 +134,10 @@
     {
         "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_text_input_password_icon.xml",
         "source": "C:\\Users\\Rogelio\\.android\\build-cache\\2715866d6b7b5b3f07b31175ef47aa62322a87e5\\output\\res\\layout\\design_text_input_password_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_password_restore.xml",
+        "source": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\src\\main\\res\\layout\\activity_password_restore.xml"
     },
     {
         "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
@@ -146,6 +162,14 @@
     {
         "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
         "source": "C:\\Users\\Rogelio\\.android\\build-cache\\6d3f0a98d88e983e6e33b9ee69f2ea1c07c64d73\\output\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_dashboard.xml",
+        "source": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\src\\main\\res\\layout\\activity_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_register.xml",
+        "source": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\src\\main\\res\\layout\\activity_register.xml"
     },
     {
         "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",

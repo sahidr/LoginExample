@@ -47,6 +47,17 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="81dp" />
 
+    <Button
+        android:id="@+id/signup"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:layout_marginBottom="17dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/submit"
+        android:layout_alignStart="@+id/submit" />
+
     <TextView
         android:id="@+id/rpwd"
         android:layout_width="wrap_content"

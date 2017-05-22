@@ -16,24 +16,16 @@
         "source": "C:\\Users\\Rogelio\\.android\\build-cache\\6d3f0a98d88e983e6e33b9ee69f2ea1c07c64d73\\output\\res\\color\\abc_secondary_text_material_light.xml"
     },
     {
-        "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
-        "source": "C:\\Users\\Rogelio\\.android\\build-cache\\6d3f0a98d88e983e6e33b9ee69f2ea1c07c64d73\\output\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_dark.xml",
-        "source": "C:\\Users\\Rogelio\\.android\\build-cache\\6d3f0a98d88e983e6e33b9ee69f2ea1c07c64d73\\output\\res\\color\\abc_hint_foreground_material_dark.xml"
-    },
-    {
         "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_tint_password_toggle.xml",
         "source": "C:\\Users\\Rogelio\\.android\\build-cache\\2715866d6b7b5b3f07b31175ef47aa62322a87e5\\output\\res\\color\\design_tint_password_toggle.xml"
     },
     {
-        "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
-        "source": "C:\\Users\\Rogelio\\.android\\build-cache\\6d3f0a98d88e983e6e33b9ee69f2ea1c07c64d73\\output\\res\\color\\abc_primary_text_material_dark.xml"
+        "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
+        "source": "C:\\Users\\Rogelio\\.android\\build-cache\\6d3f0a98d88e983e6e33b9ee69f2ea1c07c64d73\\output\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
     },
     {
-        "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_error.xml",
-        "source": "C:\\Users\\Rogelio\\.android\\build-cache\\2715866d6b7b5b3f07b31175ef47aa62322a87e5\\output\\res\\color\\design_error.xml"
+        "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
+        "source": "C:\\Users\\Rogelio\\.android\\build-cache\\6d3f0a98d88e983e6e33b9ee69f2ea1c07c64d73\\output\\res\\color\\abc_primary_text_material_dark.xml"
     },
     {
         "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_light.xml",
@@ -42,6 +34,10 @@
     {
         "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_default.xml",
         "source": "C:\\Users\\Rogelio\\.android\\build-cache\\6d3f0a98d88e983e6e33b9ee69f2ea1c07c64d73\\output\\res\\color\\abc_tint_default.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_light.xml",
+        "source": "C:\\Users\\Rogelio\\.android\\build-cache\\90accdfc03ee73ce245f19f75225b2de6474f04a\\output\\res\\color\\common_google_signin_btn_text_light.xml"
     },
     {
         "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
@@ -76,8 +72,8 @@
         "source": "C:\\Users\\Rogelio\\.android\\build-cache\\6d3f0a98d88e983e6e33b9ee69f2ea1c07c64d73\\output\\res\\color\\switch_thumb_material_light.xml"
     },
     {
-        "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
-        "source": "C:\\Users\\Rogelio\\.android\\build-cache\\6d3f0a98d88e983e6e33b9ee69f2ea1c07c64d73\\output\\res\\color\\switch_thumb_material_dark.xml"
+        "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\Rogelio\\.android\\build-cache\\90accdfc03ee73ce245f19f75225b2de6474f04a\\output\\res\\color\\common_google_signin_btn_text_dark.xml"
     },
     {
         "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_thumb.xml",
@@ -86,5 +82,21 @@
     {
         "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_text_material.xml",
         "source": "C:\\Users\\Rogelio\\.android\\build-cache\\6d3f0a98d88e983e6e33b9ee69f2ea1c07c64d73\\output\\res\\color\\abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_dark.xml",
+        "source": "C:\\Users\\Rogelio\\.android\\build-cache\\6d3f0a98d88e983e6e33b9ee69f2ea1c07c64d73\\output\\res\\color\\abc_hint_foreground_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_error.xml",
+        "source": "C:\\Users\\Rogelio\\.android\\build-cache\\2715866d6b7b5b3f07b31175ef47aa62322a87e5\\output\\res\\color\\design_error.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_tint.xml",
+        "source": "C:\\Users\\Rogelio\\.android\\build-cache\\90accdfc03ee73ce245f19f75225b2de6474f04a\\output\\res\\color\\common_google_signin_btn_tint.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
+        "source": "C:\\Users\\Rogelio\\.android\\build-cache\\6d3f0a98d88e983e6e33b9ee69f2ea1c07c64d73\\output\\res\\color\\switch_thumb_material_dark.xml"
     }
 ]

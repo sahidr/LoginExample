@@ -12,20 +12,32 @@
         "source": "C:\\Users\\Rogelio\\.android\\build-cache\\6d3f0a98d88e983e6e33b9ee69f2ea1c07c64d73\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
     },
     {
-        "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\map.png",
-        "source": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\src\\main\\res\\drawable\\map.png"
+        "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\Rogelio\\.android\\build-cache\\6d3f0a98d88e983e6e33b9ee69f2ea1c07c64d73\\output\\res\\drawable\\abc_cab_background_top_material.xml"
     },
     {
         "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
         "source": "C:\\Users\\Rogelio\\.android\\build-cache\\6d3f0a98d88e983e6e33b9ee69f2ea1c07c64d73\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
     },
     {
-        "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
-        "source": "C:\\Users\\Rogelio\\.android\\build-cache\\6d3f0a98d88e983e6e33b9ee69f2ea1c07c64d73\\output\\res\\drawable\\abc_cab_background_top_material.xml"
+        "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\map.png",
+        "source": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\src\\main\\res\\drawable\\map.png"
     },
     {
         "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
         "source": "C:\\Users\\Rogelio\\.android\\build-cache\\6d3f0a98d88e983e6e33b9ee69f2ea1c07c64d73\\output\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_disabled.xml",
+        "source": "C:\\Users\\Rogelio\\.android\\build-cache\\90accdfc03ee73ce245f19f75225b2de6474f04a\\output\\res\\drawable\\common_google_signin_btn_icon_disabled.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark.xml",
+        "source": "C:\\Users\\Rogelio\\.android\\build-cache\\90accdfc03ee73ce245f19f75225b2de6474f04a\\output\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light.xml",
+        "source": "C:\\Users\\Rogelio\\.android\\build-cache\\90accdfc03ee73ce245f19f75225b2de6474f04a\\output\\res\\drawable\\common_google_signin_btn_icon_light.xml"
     },
     {
         "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tree.png",
@@ -34,6 +46,10 @@
     {
         "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
         "source": "C:\\Users\\Rogelio\\.android\\build-cache\\6d3f0a98d88e983e6e33b9ee69f2ea1c07c64d73\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light_normal.xml",
+        "source": "C:\\Users\\Rogelio\\.android\\build-cache\\90accdfc03ee73ce245f19f75225b2de6474f04a\\output\\res\\drawable\\common_google_signin_btn_text_light_normal.xml"
     },
     {
         "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_bottom_navigation_item_background.xml",
@@ -48,8 +64,20 @@
         "source": "C:\\Users\\Rogelio\\.android\\build-cache\\2715866d6b7b5b3f07b31175ef47aa62322a87e5\\output\\res\\drawable\\design_fab_background.xml"
     },
     {
+        "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light_focused.xml",
+        "source": "C:\\Users\\Rogelio\\.android\\build-cache\\90accdfc03ee73ce245f19f75225b2de6474f04a\\output\\res\\drawable\\common_google_signin_btn_text_light_focused.xml"
+    },
+    {
         "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
         "source": "C:\\Users\\Rogelio\\.android\\build-cache\\6d3f0a98d88e983e6e33b9ee69f2ea1c07c64d73\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\Rogelio\\.android\\build-cache\\90accdfc03ee73ce245f19f75225b2de6474f04a\\output\\res\\drawable\\common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light_focused.xml",
+        "source": "C:\\Users\\Rogelio\\.android\\build-cache\\90accdfc03ee73ce245f19f75225b2de6474f04a\\output\\res\\drawable\\common_google_signin_btn_icon_light_focused.xml"
     },
     {
         "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
@@ -58,6 +86,10 @@
     {
         "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
         "source": "C:\\Users\\Rogelio\\.android\\build-cache\\6d3f0a98d88e983e6e33b9ee69f2ea1c07c64d73\\output\\res\\drawable\\abc_vector_test.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark_focused.xml",
+        "source": "C:\\Users\\Rogelio\\.android\\build-cache\\90accdfc03ee73ce245f19f75225b2de6474f04a\\output\\res\\drawable\\common_google_signin_btn_text_dark_focused.xml"
     },
     {
         "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
@@ -108,6 +140,10 @@
         "source": "C:\\Users\\Rogelio\\.android\\build-cache\\6d3f0a98d88e983e6e33b9ee69f2ea1c07c64d73\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
     },
     {
+        "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light.xml",
+        "source": "C:\\Users\\Rogelio\\.android\\build-cache\\90accdfc03ee73ce245f19f75225b2de6474f04a\\output\\res\\drawable\\common_google_signin_btn_text_light.xml"
+    },
+    {
         "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
         "source": "C:\\Users\\Rogelio\\.android\\build-cache\\2715866d6b7b5b3f07b31175ef47aa62322a87e5\\output\\res\\drawable\\design_snackbar_background.xml"
     },
@@ -148,12 +184,28 @@
         "source": "C:\\Users\\Rogelio\\.android\\build-cache\\6d3f0a98d88e983e6e33b9ee69f2ea1c07c64d73\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
     },
     {
+        "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark_normal.xml",
+        "source": "C:\\Users\\Rogelio\\.android\\build-cache\\90accdfc03ee73ce245f19f75225b2de6474f04a\\output\\res\\drawable\\common_google_signin_btn_icon_dark_normal.xml"
+    },
+    {
         "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
         "source": "C:\\Users\\Rogelio\\.android\\build-cache\\6d3f0a98d88e983e6e33b9ee69f2ea1c07c64d73\\output\\res\\drawable\\abc_switch_thumb_material.xml"
     },
     {
+        "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_disabled.xml",
+        "source": "C:\\Users\\Rogelio\\.android\\build-cache\\90accdfc03ee73ce245f19f75225b2de6474f04a\\output\\res\\drawable\\common_google_signin_btn_text_disabled.xml"
+    },
+    {
         "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
         "source": "C:\\Users\\Rogelio\\.android\\build-cache\\6d3f0a98d88e983e6e33b9ee69f2ea1c07c64d73\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark_normal.xml",
+        "source": "C:\\Users\\Rogelio\\.android\\build-cache\\90accdfc03ee73ce245f19f75225b2de6474f04a\\output\\res\\drawable\\common_google_signin_btn_text_dark_normal.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark_focused.xml",
+        "source": "C:\\Users\\Rogelio\\.android\\build-cache\\90accdfc03ee73ce245f19f75225b2de6474f04a\\output\\res\\drawable\\common_google_signin_btn_icon_dark_focused.xml"
     },
     {
         "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
@@ -174,6 +226,10 @@
     {
         "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\graphic.png",
         "source": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\src\\main\\res\\drawable\\graphic.png"
+    },
+    {
+        "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light_normal.xml",
+        "source": "C:\\Users\\Rogelio\\.android\\build-cache\\90accdfc03ee73ce245f19f75225b2de6474f04a\\output\\res\\drawable\\common_google_signin_btn_icon_light_normal.xml"
     },
     {
         "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
