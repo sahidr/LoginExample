@@ -18,6 +18,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -42,7 +43,9 @@ public class TourActivity extends AppCompatActivity {
     private ImageView page0;
     private ImageView page1;
     private ImageView page2;
+    private ImageView page3;
     private ImageView[] dots;
+    private ImageView next;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -55,13 +58,14 @@ public class TourActivity extends AppCompatActivity {
         // primary sections of the activity.
         mSectionsPagerAdapter = new SectionsPagerAdapter(getSupportFragmentManager());
 
-        start = (TextView) findViewById(R.id.start);
-        skip = (TextView) findViewById(R.id.skip);
+        start = (Button) findViewById(R.id.start);
+        skip = (Button) findViewById(R.id.skip);
         page0 = (ImageView) findViewById(R.id.page0);
         page1 = (ImageView) findViewById(R.id.page1);
         page2 = (ImageView) findViewById(R.id.page2);
-        dots = new ImageView[]{page0, page1, page2};
-
+        page3 = (ImageView) findViewById(R.id.page3);
+        dots = new ImageView[]{page0, page1, page2,page3};
+        next = (ImageView) findViewById(R.id.next);
         // Set up the ViewPager with the sections adapter.
         mViewPager = (ViewPager) findViewById(R.id.container);
         mViewPager.setAdapter(mSectionsPagerAdapter);
@@ -88,9 +92,13 @@ public class TourActivity extends AppCompatActivity {
                     case 2:
                         mViewPager.setBackgroundColor(0xA0FFFF00);
                         break;
+                    case 3:
+                        mViewPager.setBackgroundColor(0xA0FF0000);
+                        break;
                 }
-                skip.setVisibility(position == 2 ? View.INVISIBLE : View.VISIBLE);
-                start.setVisibility(position == 2 ? View.VISIBLE : View.INVISIBLE);
+                skip.setVisibility(position == 3 ? View.INVISIBLE : View.VISIBLE);
+                start.setVisibility(position == 3 ? View.VISIBLE  : View.INVISIBLE);
+                next.setVisibility(position == 3 ? View.INVISIBLE : View.VISIBLE);
 
             }
 
@@ -105,9 +113,7 @@ public class TourActivity extends AppCompatActivity {
             public void onClick(View view) {
                 //Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                 //        .setAction("Action", null).show();
-                SharedPreferences.Editor editor = getSharedPreferences("Tour", 0).edit();
-                editor.putBoolean("visited", true);
-                editor.apply();
+                updateSharedPreferences();
                 Intent i = new Intent(TourActivity.this, LoginActivity.class);
                 i.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 startActivity(i);
@@ -118,11 +124,7 @@ public class TourActivity extends AppCompatActivity {
         skip.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                //        .setAction("Action", null).show();
-                SharedPreferences.Editor editor = getSharedPreferences("Tour", 0).edit();
-                editor.putBoolean("visited", true);
-                editor.apply();
+                updateSharedPreferences();
                 Intent i = new Intent(TourActivity.this, LoginActivity.class);
                 i.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 startActivity(i);
@@ -132,8 +134,18 @@ public class TourActivity extends AppCompatActivity {
 
     }
 
+    void updateSharedPreferences(){
+        SharedPreferences.Editor editor = getSharedPreferences("Tour", 0).edit();
+        editor.putBoolean("visited", true);
+        editor.apply();
+        Intent i = new Intent(TourActivity.this, LoginActivity.class);
+        i.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        startActivity(i);
+        finish();
+    }
+
     void updateIndicators(int position) {
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < dots.length; i++) {
             dots[i].setImageResource(
                     i == position ? android.R.drawable.radiobutton_on_background :
                             android.R.drawable.radiobutton_off_background
@@ -176,7 +188,7 @@ public class TourActivity extends AppCompatActivity {
 
         private ImageView img;
 
-        private Integer[] tour_imgs = {R.drawable.graphic, R.drawable.map, R.drawable.tree};
+        private Integer[] tour_imgs = {R.drawable.graphic, R.drawable.map, R.drawable.tree, android.R.drawable.btn_star_big_on};
 
         public PlaceholderFragment() {
         }
@@ -198,7 +210,29 @@ public class TourActivity extends AppCompatActivity {
                                  Bundle savedInstanceState) {
             View rootView = inflater.inflate(R.layout.fragment_tour, container, false);
             TextView textView = (TextView) rootView.findViewById(R.id.section_label);
-            textView.setText(getString(R.string.section_format, getArguments().getInt(ARG_SECTION_NUMBER)));
+            TextView description = (TextView) rootView.findViewById(R.id.description);
+            Integer i = getArguments().getInt(ARG_SECTION_NUMBER) - 1;
+            switch (i){
+                case 0:
+                    textView.setText(getString(R.string.page0));
+                    description.setText(getString(R.string.desc0));
+                    break;
+                case 1:
+                    textView.setText(getString(R.string.page1));
+                    description.setText(getString(R.string.desc1));
+                    break;
+                case 2:
+                    textView.setText(getString(R.string.page2));
+                    description.setText(getString(R.string.desc2));
+                    break;
+                case 3:
+                    textView.setText(getString(R.string.page3));
+                    description.setText(getString(R.string.desc3));
+                    break;
+                default:
+                    break;
+            }
+            //textView.setText(getString(R.string.section_format, getArguments().getInt(ARG_SECTION_NUMBER)));
 
             img = (ImageView) rootView.findViewById(R.id.app_img);
             img.setBackgroundResource(tour_imgs[getArguments().getInt(ARG_SECTION_NUMBER) - 1]);
@@ -228,7 +262,7 @@ public class TourActivity extends AppCompatActivity {
         @Override
         public int getCount() {
             // Show 3 total pages.
-            return 3;
+            return 4;
         }
 
         @Override
@@ -240,6 +274,8 @@ public class TourActivity extends AppCompatActivity {
                     return "SECTION 2";
                 case 2:
                     return "SECTION 3";
+                case 3:
+                    return "SECTION 4";
             }
             return null;
         }

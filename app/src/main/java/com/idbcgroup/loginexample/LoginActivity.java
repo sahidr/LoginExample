@@ -20,8 +20,7 @@ import java.io.OutputStream;
 import java.io.OutputStreamWriter;
 import java.net.HttpURLConnection;
 import java.net.URL;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
+import java.net.URLEncoder;
 
 
 public class LoginActivity extends AppCompatActivity {
@@ -59,9 +58,9 @@ public class LoginActivity extends AppCompatActivity {
                 String phone_number = phone.getText().toString();
                 String password = pwd.getText().toString();
 
-                Pattern p = Pattern.compile("^[+]?[0-9]{10,13}$");
-                Matcher m = p.matcher(phone_number);
-                if (m.matches()){
+                String regex = "^[+]?[0-9]{10,13}$";
+                // ^0[412]\\d{9}$
+                if (phone_number.matches(regex)){
                     Toast.makeText(LoginActivity.this, "Connecting...", Toast.LENGTH_SHORT).show();
                     SignIn login = new SignIn();
                     login.execute(phone_number, password);
@@ -93,6 +92,14 @@ public class LoginActivity extends AppCompatActivity {
                 urlConnection.setDoInput(true);
                 urlConnection.setRequestMethod("POST");
                 urlConnection.setReadTimeout(5000);
+
+                String credentials= URLEncoder.encode("username","UTF-8")+"="+URLEncoder.encode(strings[0],"UTF-8")
+                        +"&"+URLEncoder.encode("password","UTF-8")+"="+URLEncoder.encode(strings[1],"UTF-8");
+
+                OutputStreamWriter out = new OutputStreamWriter(urlConnection.getOutputStream());
+                out.write(credentials);
+                out.flush();
+/*
                 urlConnection.setConnectTimeout(7000);
 
                 Uri.Builder builder = new Uri.Builder()
@@ -107,6 +114,7 @@ public class LoginActivity extends AppCompatActivity {
                 writer.close();
                 toUrl.close();
                 urlConnection.connect();
+*/
                 APIResponse api_response = JSONResponseController.getJsonResponse(urlConnection);
 
                 if (api_response != null) {
