@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Tue May 23 15:57:27 VET 2017
+#Tue May 23 17:35:19 VET 2017
 210.set=ANDROID_RESOURCE
 282.file=C\:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout-v17\\notification_action_tombstone.xml
 14.set=ANDROID_RESOURCE

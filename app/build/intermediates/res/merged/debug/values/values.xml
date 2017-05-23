@@ -118,8 +118,8 @@
     <color name="button_material_light">#ffd6d7d7</color>
     <color name="colorAccent">#237e19</color>
     <color name="colorCustom">#8a1aabff</color>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorPrimary">#453416</color>
+    <color name="colorPrimaryDark">#1d150b</color>
     <color name="colorTransparent">#b4f4f4f4</color>
     <color name="common_google_signin_btn_text_dark_default">@android:color/white</color>
     <color name="common_google_signin_btn_text_dark_disabled">#1F000000</color>
@@ -867,7 +867,7 @@
     <string name="style_set_to">Style set to: %1$s</string>
     <string name="styled_map_demo_description">Demonstrates how to style a map.</string>
     <string name="styled_map_demo_label">Styled Map</string>
-    <string name="title_activity_dashboard">DashboardActivity</string>
+    <string name="title_activity_dashboard">Profile</string>
     <string name="title_activity_maps">Map</string>
     <string name="title_activity_tour">TourActivity</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>

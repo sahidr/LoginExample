@@ -12,7 +12,7 @@
     <string name="desc2">Description 2</string>
     <string name="desc3">Final description START</string>
     <string name="title_activity_maps">Map</string>
-    <string name="title_activity_dashboard">DashboardActivity</string>
+    <string name="title_activity_dashboard">Profile</string>
     <string name="large_text">
         "Material is the metaphor.\n\n"
 
