@@ -1,8 +1,52 @@
-<fragment xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:map="http://schemas.android.com/apk/res-auto"
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/map"
-    android:name="com.google.android.gms.maps.SupportMapFragment"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.idbcgroup.loginexample.MapsActivity" />
+    tools:context="com.idbcgroup.loginexample.MapsActivity">
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+    <ImageButton
+        android:id="@+id/profile"
+        android:paddingTop="1.5dp"
+        android:paddingBottom="2.5dp"
+        android:paddingRight="2dp"
+        android:paddingLeft="2dp"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:background="@color/colorTransparent"
+        app:srcCompat="@android:drawable/ic_menu_myplaces"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_alignTop="@+id/camera"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:id="@+id/camera"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_gravity="bottom"
+        android:paddingTop="1.5dp"
+        android:paddingBottom="2.5dp"
+        android:paddingRight="2dp"
+        android:paddingLeft="2dp"
+        android:background="@color/colorTransparent"
+        app:srcCompat="@android:drawable/ic_menu_camera"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="11dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="15dp" />
+
+</RelativeLayout>

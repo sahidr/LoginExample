@@ -19,6 +19,10 @@
 
     Once you have your key (it starts with "AIza"), replace the "google_maps_key"
     string in this file.
+
+    https://maps.googleapis.com/maps/api/staticmap?key=YOUR_API_KEY&center=-33.90543191705898,151.0692869663238&zoom=15&format=png&maptype=roadmap&style=element:geometry%7Ccolor:0x201209&style=element:labels.text.fill%7Ccolor:0x746855&style=element:labels.text.stroke%7Ccolor:0x242f3e&style=feature:administrative.locality%7Celement:labels.text.fill%7Ccolor:0xd59563&style=feature:administrative.neighborhood%7Celement:geometry%7Ccolor:0x1e1006&style=feature:landscape%7Celement:geometry%7Ccolor:0x1a0a00&style=feature:poi%7Celement:labels.text.fill%7Ccolor:0xd59563&style=feature:poi.park%7Celement:geometry%7Ccolor:0x181101&style=feature:poi.park%7Celement:geometry.fill%7Ccolor:0x2b240d&style=feature:poi.park%7Celement:geometry.stroke%7Ccolor:0x2b240d&style=feature:poi.park%7Celement:labels.text.fill%7Ccolor:0x6b9a76&style=feature:road%7Celement:geometry%7Ccolor:0x1e1006&style=feature:road%7Celement:labels.text.fill%7Ccolor:0x9ca5b3&style=feature:road.highway%7Celement:geometry%7Ccolor:0x746855&style=feature:road.highway%7Celement:geometry.stroke%7Ccolor:0x1e1006&style=feature:road.highway%7Celement:labels.text.fill%7Ccolor:0xf3d19c&style=feature:transit%7Celement:geometry%7Ccolor:0x2f3948&style=feature:transit.station%7Celement:labels.text.fill%7Ccolor:0xd59563&style=feature:water%7Celement:geometry%7Ccolor:0x17263c&style=feature:water%7Celement:labels.text.fill%7Ccolor:0x515c6d&style=feature:water%7Celement:labels.text.stroke%7Ccolor:0x17263c&size=480x360
+
+
     -->
     <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
         AIzaSyCrwMh-7FN1RQyEjvuPB4jj9uO6Nk2uOc4
