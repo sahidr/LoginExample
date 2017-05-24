@@ -8,10 +8,37 @@
     tools:context="com.idbcgroup.loginexample.DashboardActivity"
     tools:showIn="@layout/activity_dashboard">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="@dimen/text_margin"
-        android:text="@string/large_text" />
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/badges"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rectangle"
+            android:text="Badges"/>
+
+        <TextView
+            android:id="@+id/text2"
+            style="@style/Base.Widget.AppCompat.Button"
+            android:layout_below="@+id/badges"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Texto 2"/>
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_below="@+id/text2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/large_text"/>
+
+
+    </RelativeLayout>
+
+
 
 </android.support.v4.widget.NestedScrollView>

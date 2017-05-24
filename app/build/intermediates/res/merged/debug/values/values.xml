@@ -867,7 +867,7 @@
     <string name="style_set_to">Style set to: %1$s</string>
     <string name="styled_map_demo_description">Demonstrates how to style a map.</string>
     <string name="styled_map_demo_label">Styled Map</string>
-    <string name="title_activity_dashboard">Profile</string>
+    <string name="title_activity_dashboard"/>
     <string name="title_activity_maps">Map</string>
     <string name="title_activity_tour">TourActivity</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
