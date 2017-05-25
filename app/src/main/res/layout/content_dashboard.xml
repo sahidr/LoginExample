@@ -12,29 +12,36 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:background="@drawable/rectangle">
 
-        <Button
+        <TextView
             android:id="@+id/badges"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/rectangle"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp"
+            android:paddingTop="8dp"
+            android:paddingLeft="20dp"
+            android:paddingBottom="10dp"
             android:text="Badges"/>
 
         <TextView
             android:id="@+id/text2"
-            style="@style/Base.Widget.AppCompat.Button"
+            android:textSize="15sp"
+            android:paddingTop="5dp"
+            android:paddingLeft="20dp"
             android:layout_below="@+id/badges"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Texto 2"/>
+            android:text="Game Stats"/>
 
-        <TextView
-            android:id="@+id/text3"
-            android:layout_below="@+id/text2"
+        <com.jjoe64.graphview.GraphView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/large_text"/>
+            android:layout_height="200dip"
+            android:layout_below="@id/text2"
+            android:id="@+id/graph" />
 
 
     </RelativeLayout>

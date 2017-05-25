@@ -4,20 +4,20 @@
         "source": "C:\\Users\\Rogelio\\.android\\build-cache\\6d3f0a98d88e983e6e33b9ee69f2ea1c07c64d73\\output\\res\\drawable-xxhdpi-v4\\abc_ic_star_half_black_16dp.png"
     },
     {
-        "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png",
-        "source": "C:\\Users\\Rogelio\\.android\\build-cache\\6d3f0a98d88e983e6e33b9ee69f2ea1c07c64d73\\output\\res\\drawable-xxhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
-    },
-    {
         "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png",
         "source": "C:\\Users\\Rogelio\\.android\\build-cache\\6d3f0a98d88e983e6e33b9ee69f2ea1c07c64d73\\output\\res\\drawable-xxhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
     },
     {
-        "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png",
-        "source": "C:\\Users\\Rogelio\\.android\\build-cache\\90accdfc03ee73ce245f19f75225b2de6474f04a\\output\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
+        "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png",
+        "source": "C:\\Users\\Rogelio\\.android\\build-cache\\6d3f0a98d88e983e6e33b9ee69f2ea1c07c64d73\\output\\res\\drawable-xxhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
     },
     {
         "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png",
         "source": "C:\\Users\\Rogelio\\.android\\build-cache\\90accdfc03ee73ce245f19f75225b2de6474f04a\\output\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png",
+        "source": "C:\\Users\\Rogelio\\.android\\build-cache\\90accdfc03ee73ce245f19f75225b2de6474f04a\\output\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
     },
     {
         "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png",
@@ -96,12 +96,12 @@
         "source": "C:\\Users\\Rogelio\\.android\\build-cache\\2715866d6b7b5b3f07b31175ef47aa62322a87e5\\output\\res\\drawable-xxhdpi-v4\\design_ic_visibility_off.png"
     },
     {
-        "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_btn_check_to_on_mtrl_000.png",
-        "source": "C:\\Users\\Rogelio\\.android\\build-cache\\6d3f0a98d88e983e6e33b9ee69f2ea1c07c64d73\\output\\res\\drawable-xxhdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
-    },
-    {
         "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png",
         "source": "C:\\Users\\Rogelio\\.android\\build-cache\\6d3f0a98d88e983e6e33b9ee69f2ea1c07c64d73\\output\\res\\drawable-xxhdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_btn_check_to_on_mtrl_000.png",
+        "source": "C:\\Users\\Rogelio\\.android\\build-cache\\6d3f0a98d88e983e6e33b9ee69f2ea1c07c64d73\\output\\res\\drawable-xxhdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
     },
     {
         "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_list_longpressed_holo.9.png",

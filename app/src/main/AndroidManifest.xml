@@ -63,7 +63,8 @@
             android:label="@string/title_activity_dashboard"
             android:theme="@style/AppTheme" />
         <activity android:name=".CameraActivity" />
-        <activity android:name=".EditProfile"></activity>
+        <activity android:name=".EditProfile" />
+        <activity android:name=".GreenPointRegisterActivity"></activity>
     </application>
 
 </manifest>

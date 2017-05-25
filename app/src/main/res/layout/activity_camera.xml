@@ -27,6 +27,6 @@
         android:layout_gravity="center|bottom"
         android:background="@android:drawable/ic_menu_camera"
         android:padding="20dp"
-        android:visibility="invisible" />
+        android:visibility="visible" />
 
 </FrameLayout>

@@ -20,12 +20,12 @@
         "source": "C:\\Users\\Rogelio\\.android\\build-cache\\6d3f0a98d88e983e6e33b9ee69f2ea1c07c64d73\\output\\res\\drawable-hdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
     },
     {
-        "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",
-        "source": "C:\\Users\\Rogelio\\.android\\build-cache\\6d3f0a98d88e983e6e33b9ee69f2ea1c07c64d73\\output\\res\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
-    },
-    {
         "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png",
         "source": "C:\\Users\\Rogelio\\.android\\build-cache\\6d3f0a98d88e983e6e33b9ee69f2ea1c07c64d73\\output\\res\\drawable-hdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",
+        "source": "C:\\Users\\Rogelio\\.android\\build-cache\\6d3f0a98d88e983e6e33b9ee69f2ea1c07c64d73\\output\\res\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
         "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\notification_bg_low_normal.9.png",
@@ -36,12 +36,12 @@
         "source": "C:\\Users\\Rogelio\\.android\\build-cache\\2715866d6b7b5b3f07b31175ef47aa62322a87e5\\output\\res\\drawable-hdpi-v4\\design_ic_visibility_off.png"
     },
     {
-        "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png",
-        "source": "C:\\Users\\Rogelio\\.android\\build-cache\\6d3f0a98d88e983e6e33b9ee69f2ea1c07c64d73\\output\\res\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
-    },
-    {
         "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png",
         "source": "C:\\Users\\Rogelio\\.android\\build-cache\\6d3f0a98d88e983e6e33b9ee69f2ea1c07c64d73\\output\\res\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
+        "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png",
+        "source": "C:\\Users\\Rogelio\\.android\\build-cache\\6d3f0a98d88e983e6e33b9ee69f2ea1c07c64d73\\output\\res\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
     },
     {
         "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_black_48dp.png",

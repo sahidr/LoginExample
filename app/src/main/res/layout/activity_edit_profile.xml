@@ -6,16 +6,24 @@
     android:layout_height="match_parent"
     tools:context="com.idbcgroup.loginexample.EditProfile">
 
+    <ProgressBar
+        android:id="@+id/load"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"/>
+
     <ImageButton
-        android:id="@+id/fab"
+        android:id="@+id/editpic"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_gravity="center"
         android:background="@drawable/circle"
         android:scaleType="centerCrop"
         android:src="@drawable/map"
-        android:layout_marginTop="24dp"
-        android:layout_alignParentTop="true"
+        android:layout_below="@+id/load"
         android:layout_centerHorizontal="true" />
 
     <EditText
@@ -36,8 +44,8 @@
         android:ems="10"
         android:hint="Full Name"
         android:inputType="textPersonName"
-        android:layout_marginTop="45dp"
-        android:layout_below="@+id/fab"
+        android:layout_marginTop="32dp"
+        android:layout_below="@+id/editpic"
         android:layout_centerHorizontal="true" />
 
     <EditText
@@ -84,6 +92,17 @@
         android:layout_marginBottom="85dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/editpic"
+        android:layout_alignEnd="@+id/editpic"
+        android:layout_alignRight="@+id/editpic"
+        android:layout_toEndOf="@+id/load"
+        android:layout_toRightOf="@+id/load"
+        app:srcCompat="@android:drawable/ic_menu_camera" />
 
 
 </RelativeLayout>

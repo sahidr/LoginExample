@@ -111,13 +111,7 @@ public class TourActivity extends AppCompatActivity {
         start.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                //        .setAction("Action", null).show();
                 updateSharedPreferences();
-                Intent i = new Intent(TourActivity.this, LoginActivity.class);
-                i.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-                startActivity(i);
-                finish();
             }
         });
 
@@ -125,10 +119,6 @@ public class TourActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 updateSharedPreferences();
-                Intent i = new Intent(TourActivity.this, LoginActivity.class);
-                i.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-                startActivity(i);
-                finish();
             }
         });
 

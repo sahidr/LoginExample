@@ -23,7 +23,7 @@
             app:layout_scrollFlags="scroll|exitUntilCollapsed">
 
             <ImageButton
-                android:id="@+id/fab"
+                android:id="@+id/profilepic"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_gravity="center"

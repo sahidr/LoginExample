@@ -62,7 +62,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="Phone Number"
+        android:hint="Address"
         android:inputType="phone"
         android:layout_below="@+id/name"
         android:layout_alignLeft="@+id/name"
@@ -88,6 +88,6 @@
         android:layout_below="@+id/name"
         android:layout_marginTop="43dp"
         android:ems="10"
-        android:hint="E-mail"
+        android:hint="Email"
         android:inputType="textEmailAddress" />
 </RelativeLayout>

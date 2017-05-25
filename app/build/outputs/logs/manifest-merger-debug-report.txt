@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:2:1-69:12
+ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:2:1-70:12
 	package
 		ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:3:5-41
 		INJECTED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml
@@ -48,7 +48,7 @@ ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\Andr
 	android:name
 		ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:13:19-57
 application
-ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:21:5-67:19
+ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:21:5-68:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Rogelio\.android\build-cache\c4ab4676cc9f522ee8e9a771438e45e9953bfef5\output\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:design:25.3.1] C:\Users\Rogelio\.android\build-cache\2715866d6b7b5b3f07b31175ef47aa62322a87e5\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Rogelio\.android\build-cache\6d3f0a98d88e983e6e33b9ee69f2ea1c07c64d73\output\AndroidManifest.xml:29:5-20
@@ -59,6 +59,7 @@ MERGED from [com.google.android.gms:play-services-maps:10.2.4] C:\Users\Rogelio\
 MERGED from [com.google.android.gms:play-services-base:10.2.4] C:\Users\Rogelio\.android\build-cache\90accdfc03ee73ce245f19f75225b2de6474f04a\output\AndroidManifest.xml:18:5-20:19
 MERGED from [com.google.android.gms:play-services-tasks:10.2.4] C:\Users\Rogelio\.android\build-cache\4397b74c6cde7f61111b7d45778b538e5ac7eb00\output\AndroidManifest.xml:4:5-19
 MERGED from [com.google.android.gms:play-services-basement:10.2.4] C:\Users\Rogelio\.android\build-cache\ed33bbb93755c5d7a9abd840f05350ee601d48a8\output\AndroidManifest.xml:19:5-21:19
+MERGED from [com.jjoe64:graphview:4.2.1] C:\Users\Rogelio\.android\build-cache\d37f6931b6fdfc2d2d16ec5867722048a17a2a0b\output\AndroidManifest.xml:11:5-12:19
 MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Rogelio\.android\build-cache\d31df1c0bd3775b80ea97d179ff4ba1d2d3d602e\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Rogelio\.android\build-cache\53a29b2f09f52fc2a2f7761c7ee1c8022bf710f0\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Rogelio\.android\build-cache\8979b32960c00ea0d19152b431f57cb244709870\output\AndroidManifest.xml:29:5-20
@@ -140,9 +141,13 @@ ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\Andr
 	android:name
 		ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:65:19-49
 activity#com.idbcgroup.loginexample.EditProfile
-ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:66:9-58
+ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:66:9-49
 	android:name
 		ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:66:19-46
+activity#com.idbcgroup.loginexample.GreenPointRegisterActivity
+ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:67:9-73
+	android:name
+		ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:67:19-61
 uses-sdk
 INJECTED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Rogelio\.android\build-cache\c4ab4676cc9f522ee8e9a771438e45e9953bfef5\output\AndroidManifest.xml:5:5-7:41
@@ -156,6 +161,7 @@ MERGED from [com.google.android.gms:play-services-maps:10.2.4] C:\Users\Rogelio\
 MERGED from [com.google.android.gms:play-services-base:10.2.4] C:\Users\Rogelio\.android\build-cache\90accdfc03ee73ce245f19f75225b2de6474f04a\output\AndroidManifest.xml:17:5-43
 MERGED from [com.google.android.gms:play-services-tasks:10.2.4] C:\Users\Rogelio\.android\build-cache\4397b74c6cde7f61111b7d45778b538e5ac7eb00\output\AndroidManifest.xml:3:5-43
 MERGED from [com.google.android.gms:play-services-basement:10.2.4] C:\Users\Rogelio\.android\build-cache\ed33bbb93755c5d7a9abd840f05350ee601d48a8\output\AndroidManifest.xml:17:5-43
+MERGED from [com.jjoe64:graphview:4.2.1] C:\Users\Rogelio\.android\build-cache\d37f6931b6fdfc2d2d16ec5867722048a17a2a0b\output\AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Rogelio\.android\build-cache\d31df1c0bd3775b80ea97d179ff4ba1d2d3d602e\output\AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Rogelio\.android\build-cache\53a29b2f09f52fc2a2f7761c7ee1c8022bf710f0\output\AndroidManifest.xml:21:5-23:60
 MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Rogelio\.android\build-cache\8979b32960c00ea0d19152b431f57cb244709870\output\AndroidManifest.xml:21:5-23:63

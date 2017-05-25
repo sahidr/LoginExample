@@ -3,6 +3,15 @@
 
     <item
         is-multidex="true"
+        jar="C:\Users\Rogelio\.android\build-cache\d37f6931b6fdfc2d2d16ec5867722048a17a2a0b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="987adec819c9a98faf215814f41195da48fc724e">
+        <dex dex="C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_914f83fea842a34339078f8e6fc2398f15eef458\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\Rogelio\.android\build-cache\ed33bbb93755c5d7a9abd840f05350ee601d48a8\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"

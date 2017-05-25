@@ -6,46 +6,27 @@
     density="xhdpi"
     format="10"
     plugin-version="2.3.2"
-    timestamp="1495661463511"
+    timestamp="1495747720114"
     token="632466808078681037"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="13314" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="2079" />
+        duration="0" />
     <task
         name="verifier"
-        duration="203" />
-
-    <artifact
-        location="C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\build\outputs\apk\app-debug.apk"
-        type="SPLIT_MAIN" />
+        duration="0" />
 
     <build
         build-mode="FULL"
-        timestamp="1495655369902"
+        timestamp="1495746436401"
         verifier="FULL_BUILD_REQUESTED" >
-        <artifact
-            location="C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
-            type="SPLIT" />
         <artifact
             location="C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
@@ -74,6 +55,9 @@
             location="C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
         <artifact
+            location="C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            type="SPLIT" />
+        <artifact
             location="C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
         <artifact
@@ -82,13 +66,13 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1495661463511"
+        timestamp="1495747319960"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            location="C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            location="C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
@@ -100,5 +84,9 @@
             location="C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\build\outputs\apk\app-debug.apk"
             type="SPLIT_MAIN" />
     </build>
+    <build
+        build-mode="COLD"
+        timestamp="1495747720114"
+        verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>

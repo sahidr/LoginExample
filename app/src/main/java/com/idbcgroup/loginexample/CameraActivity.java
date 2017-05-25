@@ -38,14 +38,18 @@ public class CameraActivity extends AppCompatActivity {
         imgClose.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                System.exit(0);
+                //System.exit(0);
+                //super.onBackPressed();
+                finish();
+                //onBackPressed();
             }
         });
 
         imgCapture.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                System.exit(0);
+                //System.exit(0);
+                finish();
             }
         });
     }
