@@ -1,7 +1,7 @@
-#Thu May 25 17:22:32 VET 2017
-base.0=C\:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_256fd78cf69e27832e6ee6ecef24ff5b6c695bc4
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=C\:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_d31e1d2ca5d346392a2d9d75b77ae303e9d511cf\\classes.dex
-base.1=C\:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_d31e1d2ca5d346392a2d9d75b77ae303e9d511cf
-file.0=C\:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_256fd78cf69e27832e6ee6ecef24ff5b6c695bc4\\classes.dex
+#Fri May 26 11:14:56 VET 2017
+base.0=C\:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_d31e1d2ca5d346392a2d9d75b77ae303e9d511cf
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_256fd78cf69e27832e6ee6ecef24ff5b6c695bc4\\classes.dex
+base.1=C\:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_256fd78cf69e27832e6ee6ecef24ff5b6c695bc4
+file.0=C\:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_d31e1d2ca5d346392a2d9d75b77ae303e9d511cf\\classes.dex

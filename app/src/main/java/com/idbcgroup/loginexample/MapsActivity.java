@@ -36,6 +36,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
     private LocationManager locationManager;
     private static final long MIN_TIME = 400;
     private static final float MIN_DISTANCE = 1000;
+    //public final static String EXTRA_MESSAGE = "com.idbcgroup.MESSAGE";
 
 
     @Override
@@ -64,7 +65,8 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         camera.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(MapsActivity.this, GreenPointRegisterActivity.class);
+                Intent i = new Intent(MapsActivity.this, CameraActivity.class);
+         //       i.putExtra(EXTRA_MESSAGE, "MAPS");
                 startActivity(i);
             }
         });

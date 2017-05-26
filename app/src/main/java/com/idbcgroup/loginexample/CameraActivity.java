@@ -1,5 +1,6 @@
 package com.idbcgroup.loginexample;
 
+import android.content.Intent;
 import android.hardware.Camera;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -14,12 +15,34 @@ public class CameraActivity extends AppCompatActivity {
     private ImageButton imgClose;
     private ImageButton imgCapture;
 
+    private String data;
+
+    private String message;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_camera);
         imgClose = (ImageButton)findViewById(R.id.imgClose);
         imgCapture = (ImageButton)findViewById(R.id.imgCapture);
+
+//        data = getIntent().getExtras().getString("From");
+
+//        Intent intent = getIntent();
+//        message = intent.getStringExtra(MapsActivity.EXTRA_MESSAGE);
+
+        String newString;
+        if (savedInstanceState == null) {
+            Bundle extras = getIntent().getExtras();
+            if(extras == null) {
+                newString= null;
+            } else {
+                newString= extras.getString("From");
+            }
+        } else {
+            newString= (String) savedInstanceState.getSerializable("From");
+        }
+
 
         try{
             mCamera = Camera.open();//you can use open(int) to use different cameras
@@ -48,7 +71,12 @@ public class CameraActivity extends AppCompatActivity {
         imgCapture.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //System.exit(0);
+                /*if (message == "MAPS") {
+                    Intent i = new Intent(CameraActivity.this,GreenPointRegisterActivity.class);
+                    startActivity(i);
+                } else {
+                    finish();
+                }*/
                 finish();
             }
         });

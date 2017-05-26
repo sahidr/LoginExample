@@ -45,6 +45,7 @@ public class EditProfile extends AppCompatActivity {
                         // the user clicked on colors[which]
                        if (which == 0){
                            Intent i = new Intent(EditProfile.this,CameraActivity.class);
+//                           i.putExtra("From","Edit");
                            startActivity(i);
                        }else{
                            Toast.makeText(EditProfile.this,"Gallery",LENGTH_SHORT).show();
