@@ -38,14 +38,13 @@ public class TourActivity extends AppCompatActivity {
      * The {@link ViewPager} that will host the section contents.
      */
     private ViewPager mViewPager;
-    private TextView start;
-    private TextView skip;
+    private Button skip;
     private ImageView page0;
     private ImageView page1;
     private ImageView page2;
     private ImageView page3;
     private ImageView[] dots;
-    private ImageView next;
+    private Button register;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -58,18 +57,17 @@ public class TourActivity extends AppCompatActivity {
         // primary sections of the activity.
         mSectionsPagerAdapter = new SectionsPagerAdapter(getSupportFragmentManager());
 
-        start = (Button) findViewById(R.id.start);
         skip = (Button) findViewById(R.id.skip);
         page0 = (ImageView) findViewById(R.id.page0);
         page1 = (ImageView) findViewById(R.id.page1);
         page2 = (ImageView) findViewById(R.id.page2);
         page3 = (ImageView) findViewById(R.id.page3);
         dots = new ImageView[]{page0, page1, page2,page3};
-        next = (ImageView) findViewById(R.id.next);
+        register = (Button) findViewById(R.id.register);
+
         // Set up the ViewPager with the sections adapter.
         mViewPager = (ViewPager) findViewById(R.id.container);
         mViewPager.setAdapter(mSectionsPagerAdapter);
-        //mViewPager.setBackgroundColor(0xAA00AAFF);
         mViewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
 
             @Override
@@ -96,9 +94,7 @@ public class TourActivity extends AppCompatActivity {
                         mViewPager.setBackgroundColor(0xA0FF0000);
                         break;
                 }
-                skip.setVisibility(position == 3 ? View.INVISIBLE : View.VISIBLE);
-                start.setVisibility(position == 3 ? View.VISIBLE  : View.INVISIBLE);
-                next.setVisibility(position == 3 ? View.INVISIBLE : View.VISIBLE);
+                skip.setText(position == 3 ? getString(R.string.start): getString(R.string.skip));
 
             }
 
@@ -108,10 +104,13 @@ public class TourActivity extends AppCompatActivity {
             }
         });
 
-        start.setOnClickListener(new View.OnClickListener() {
+        register.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
+            public void onClick(View v) {
                 updateSharedPreferences();
+                startActivity(new Intent(TourActivity.this, RegisterActivity.class)
+                        .addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP));
+                finish();
             }
         });
 
@@ -119,6 +118,10 @@ public class TourActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 updateSharedPreferences();
+                Intent i = new Intent(TourActivity.this, LoginActivity.class);
+                i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                startActivity(i);
+                finish();
             }
         });
 
@@ -128,10 +131,6 @@ public class TourActivity extends AppCompatActivity {
         SharedPreferences.Editor editor = getSharedPreferences("Tour", 0).edit();
         editor.putBoolean("visited", true);
         editor.apply();
-        Intent i = new Intent(TourActivity.this, LoginActivity.class);
-        i.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-        startActivity(i);
-        finish();
     }
 
     void updateIndicators(int position) {
@@ -199,24 +198,20 @@ public class TourActivity extends AppCompatActivity {
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                                  Bundle savedInstanceState) {
             View rootView = inflater.inflate(R.layout.fragment_tour, container, false);
-            TextView textView = (TextView) rootView.findViewById(R.id.section_label);
+
             TextView description = (TextView) rootView.findViewById(R.id.description);
             Integer i = getArguments().getInt(ARG_SECTION_NUMBER) - 1;
             switch (i){
                 case 0:
-                    textView.setText(getString(R.string.page0));
-                    description.setText(getString(R.string.desc0));
+                    description.setText(getString(R.string.welcome));
                     break;
                 case 1:
-                    textView.setText(getString(R.string.page1));
                     description.setText(getString(R.string.desc1));
                     break;
                 case 2:
-                    textView.setText(getString(R.string.page2));
                     description.setText(getString(R.string.desc2));
                     break;
                 case 3:
-                    textView.setText(getString(R.string.page3));
                     description.setText(getString(R.string.desc3));
                     break;
                 default:

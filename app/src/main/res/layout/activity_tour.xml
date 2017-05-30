@@ -6,33 +6,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
+    android:theme="@style/Theme.AppCompat.Light.NoActionBar"
     tools:context="com.idbcgroup.loginexample.TourActivity">
-
-    <!--android.support.design.widget.AppBarLayout
-        android:id="@+id/appbar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingTop="@dimen/appbar_padding_top"
-        android:theme="@style/AppTheme.AppBarOverlay">
-
-        <android.support.v7.widget.Toolbar
-            android:id="@+id/toolbar"
-            android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:background="?attr/colorPrimary"
-            app:layout_scrollFlags="scroll|enterAlways"
-            app:popupTheme="@style/AppTheme.PopupOverlay">
-
-        </android.support.v7.widget.Toolbar>
-
-    </android.support.design.widget.AppBarLayout-->
 
     <android.support.v4.view.ViewPager
         android:id="@+id/container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="#AA00AAFF"
-        app:layout_behavior="@string/appbar_scrolling_view_behavior" >
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
     </android.support.v4.view.ViewPager>
 
@@ -42,11 +24,18 @@
         android:layout_gravity="bottom|center"
         android:background="#36000000">
 
+        <Button
+            android:id="@+id/register"
+            android:text="@string/register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Base.Widget.AppCompat.Button.Borderless" />
+
+
         <ImageView
             android:id="@+id/page0"
             android:layout_width="8dp"
             android:layout_height="8dp"
-
             android:layout_alignTop="@+id/page1"
             android:layout_toLeftOf="@+id/page1"
             android:layout_toStartOf="@+id/page1"
@@ -82,50 +71,12 @@
             android:id="@+id/skip"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_centerVertical="true"
-            android:layout_gravity="start"
-            android:fontFamily="monospace"
-            android:gravity="start"
-            android:text="SKIP"
-            style="@style/Base.Widget.AppCompat.Button.Borderless"
-            android:textColor="#ffffff"
-            android:textSize="18sp"
-            android:textStyle="bold" />
-
-        <ImageView
-            android:id="@+id/next"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:text="@string/skip"
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
-            android:layout_gravity="end|center"
-            android:fontFamily="monospace"
-            android:gravity="end|center"
-            app:srcCompat="@android:drawable/ic_menu_send"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentBottom="true"
-            android:layout_alignLeft="@+id/start"
-            android:layout_alignStart="@+id/start" />
-
-        <Button
-            android:id="@+id/start"
-            style="@style/Base.Widget.AppCompat.Button.Borderless"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignBaseline="@+id/skip"
-            android:layout_alignBottom="@+id/skip"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentRight="true"
-            android:layout_gravity="end|center"
-            android:fontFamily="monospace"
-            android:gravity="end|center"
-            android:text="START"
-            android:textColor="#ffffff"
-            android:textSize="18sp"
-            android:textStyle="bold"
-            android:visibility="invisible" />
+            style="@style/Base.Widget.AppCompat.Button.Borderless" />
 
     </RelativeLayout>
+
+
 </android.support.design.widget.CoordinatorLayout>

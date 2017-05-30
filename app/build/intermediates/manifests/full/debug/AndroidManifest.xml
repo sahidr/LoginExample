@@ -58,13 +58,11 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.idbcgroup.loginexample.LoginActivity"
-            android:screenOrientation="portrait" />
-        <activity
             android:name="com.idbcgroup.loginexample.TourActivity"
             android:label="@string/title_activity_tour"
             android:theme="@style/AppTheme" />
         <activity android:name="com.idbcgroup.loginexample.RegisterActivity" />
+        <activity android:name="com.idbcgroup.loginexample.LoginActivity" />
         <activity android:name="com.idbcgroup.loginexample.PasswordRestoreActivity" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
@@ -72,7 +70,7 @@
              Note that the API key is linked to the encryption key used to sign the APK.
              You need a different API key for each encryption key, including the release key that is used to
              sign the APK for publishing.
-             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
         -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
@@ -82,8 +80,8 @@
             android:name="com.idbcgroup.loginexample.MapsActivity"
             android:label="@string/title_activity_maps" />
         <activity
-            android:name="com.idbcgroup.loginexample.DashboardActivity"
-            android:label="@string/title_activity_dashboard"
+            android:name="com.idbcgroup.loginexample.UserProfile"
+            android:label="@string/title_activity_user_profile"
             android:theme="@style/AppTheme" />
         <activity android:name="com.idbcgroup.loginexample.CameraActivity" />
         <activity android:name="com.idbcgroup.loginexample.EditProfile" />

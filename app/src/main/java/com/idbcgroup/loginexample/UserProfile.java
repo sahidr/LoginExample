@@ -1,21 +1,10 @@
 package com.idbcgroup.loginexample;
 
-import android.content.BroadcastReceiver;
-import android.content.Context;
 import android.content.Intent;
-import android.content.IntentFilter;
 import android.content.SharedPreferences;
-import android.graphics.Color;
-import android.graphics.DashPathEffect;
-import android.graphics.Paint;
-import android.media.Image;
 import android.os.Bundle;
-import android.provider.ContactsContract;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
@@ -24,9 +13,8 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.jjoe64.graphview.GraphView;
 import com.jjoe64.graphview.series.BarGraphSeries;
 import com.jjoe64.graphview.series.DataPoint;
-import com.jjoe64.graphview.series.LineGraphSeries;
 
-public class DashboardActivity extends AppCompatActivity {
+public class UserProfile extends AppCompatActivity {
 
     private ImageButton back;
     private ImageButton edit;
@@ -38,7 +26,7 @@ public class DashboardActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        setContentView(R.layout.activity_dashboard);
+        setContentView(R.layout.activity_user_profile);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -78,7 +66,7 @@ public class DashboardActivity extends AppCompatActivity {
         edit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(DashboardActivity.this, EditProfile.class);
+                Intent i = new Intent(UserProfile.this, EditProfile.class);
                 startActivity(i);
             }
         });
@@ -88,7 +76,7 @@ public class DashboardActivity extends AppCompatActivity {
             public void onClick(View v) {
                 SharedPreferences.Editor preferences = getSharedPreferences("User_Auth", 0).edit().clear();
                 preferences.apply();
-                Intent i = new Intent(DashboardActivity.this,MainActivity.class);
+                Intent i = new Intent(UserProfile.this,MainActivity.class);
                 i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
                 i.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);

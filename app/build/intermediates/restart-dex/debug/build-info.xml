@@ -6,22 +6,22 @@
     density="xhdpi"
     format="10"
     plugin-version="2.3.2"
-    timestamp="1496161961608"
+    timestamp="1496179189042"
     token="632466808078681037"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="1102" />
+        duration="726" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="51" />
+        duration="14" />
     <task
         name="verifier"
-        duration="7" />
+        duration="4" />
 
     <artifact
         location="C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
@@ -32,8 +32,23 @@
 
     <build
         build-mode="FULL"
-        timestamp="1496160042562"
+        timestamp="1496175711862"
         verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            type="SPLIT" />
         <artifact
             location="C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
@@ -47,12 +62,6 @@
             location="C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
-            type="SPLIT" />
-        <artifact
             location="C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
             type="SPLIT" />
         <artifact
@@ -61,19 +70,10 @@
         <artifact
             location="C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
-        <artifact
-            location="C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-            type="SPLIT" />
     </build>
     <build
         build-mode="COLD"
-        timestamp="1496161805915"
+        timestamp="1496179107441"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\build\outputs\apk\app-debug.apk"
@@ -81,7 +81,7 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1496161961608"
+        timestamp="1496179189042"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\build\intermediates\split-apk\debug\slices\slice_9.apk"

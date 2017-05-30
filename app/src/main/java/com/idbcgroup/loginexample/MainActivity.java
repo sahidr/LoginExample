@@ -11,12 +11,7 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    private TextView username;
-    private Button logout;
     private Boolean visited;
-    private String id;
-    private String token;
-    private String role;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,52 +21,19 @@ public class MainActivity extends AppCompatActivity {
         final SharedPreferences pref_tour = getSharedPreferences("Tour", 0);
         visited  = pref_tour.getBoolean("visited",false);
 
-        final SharedPreferences prefs = getSharedPreferences("User_Auth", 0);
-        id = prefs.getString("id",null);
-        token = prefs.getString("token", null);
-        role = prefs.getString("role",null);
-        username = (TextView) findViewById(R.id.user);
-        logout= (Button) findViewById(R.id.logout);
-
         if (visited) {
-            if (token == null) {
+            Intent i = new Intent(MainActivity.this, LoginActivity.class);
+            i.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            startActivity(i);
+            finish();
 
-                Intent i = new Intent(MainActivity.this, LoginActivity.class);
-                i.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-                startActivity(i);
-                finish();
-
-            } else {
-
-                username.setText("ID: " + id + "\nToken: " + token + "\nRole: " + role);
-                if (Integer.parseInt(id) == 1) {
-                    FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
-                    ft.replace(R.id.fragment, new Tendero());
-                    ft.commit();
-                } else if (Integer.parseInt(id) == 2) {
-                    FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
-                    ft.replace(R.id.fragment, new Transportador());
-                    ft.commit();
-                }
-            }
         } else {
+
             Intent i = new Intent(MainActivity.this, TourActivity.class);
             i.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
             startActivity(i);
             finish();
         }
-
-        logout.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                SharedPreferences.Editor preferences = getSharedPreferences("User_Auth", 0).edit().clear();
-                preferences.apply();
-                Intent i = new Intent(MainActivity.this,LoginActivity.class);
-                i.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-                startActivity(i);
-                finish();
-            }
-        });
 
     }
 }
