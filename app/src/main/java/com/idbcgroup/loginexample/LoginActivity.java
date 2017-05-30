@@ -75,7 +75,6 @@ public class LoginActivity extends AppCompatActivity {
             public void onClick(View v) {
                 /*String phone_number = phone.getText().toString();
                 String password = pwd.getText().toString();
-
                 String regex = "^[+]?[0-9]{10,13}$";
                 // ^0[412]\\d{9}$
                 if (phone_number.matches(regex)){
@@ -124,12 +123,10 @@ public class LoginActivity extends AppCompatActivity {
                 out.flush();
 /*
                 urlConnection.setConnectTimeout(7000);
-
                 Uri.Builder builder = new Uri.Builder()
                         .appendQueryParameter("password", strings[1])
                         .appendQueryParameter("username",strings[0]);
                 String query = builder.build().getEncodedQuery();
-
                 OutputStream toUrl = urlConnection.getOutputStream();
                 BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(toUrl, "UTF-8"));
                 writer.write(query);
@@ -164,7 +161,7 @@ public class LoginActivity extends AppCompatActivity {
                     }else{
                         Log.d("API_RESPONSE","PLEASE TRY AGAIN, MAYBE FIELD ARE EMPTY");
                         result = -1;
-                        }
+                    }
                 } else {
                     Log.d("JSON EMPTY", "Null");
                 }

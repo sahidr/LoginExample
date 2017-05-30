@@ -28,6 +28,10 @@
         "source": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\src\\main\\res\\layout\\transportador.xml"
     },
     {
+        "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tw__media_badge.xml",
+        "source": "C:\\Users\\Rogelio\\.android\\build-cache\\badcbe18297091f38a79e5458341646a18cbc257\\output\\res\\layout\\tw__media_badge.xml"
+    },
+    {
         "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
         "source": "C:\\Users\\Rogelio\\.android\\build-cache\\6d3f0a98d88e983e6e33b9ee69f2ea1c07c64d73\\output\\res\\layout\\notification_template_part_chronometer.xml"
     },
@@ -36,16 +40,28 @@
         "source": "C:\\Users\\Rogelio\\.android\\build-cache\\6d3f0a98d88e983e6e33b9ee69f2ea1c07c64d73\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
     },
     {
+        "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tw__native_ad.xml",
+        "source": "C:\\Users\\Rogelio\\.android\\build-cache\\796438e5e9e560b90ed69b6823167b602206ad12\\output\\res\\layout\\tw__native_ad.xml"
+    },
+    {
         "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_maps.xml",
         "source": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\src\\main\\res\\layout\\activity_maps.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
         "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
         "source": "C:\\Users\\Rogelio\\.android\\build-cache\\2715866d6b7b5b3f07b31175ef47aa62322a87e5\\output\\res\\layout\\design_navigation_menu.xml"
     },
     {
-        "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
-        "source": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tw__gallery_activity.xml",
+        "source": "C:\\Users\\Rogelio\\.android\\build-cache\\badcbe18297091f38a79e5458341646a18cbc257\\output\\res\\layout\\tw__gallery_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tw__tweet_compact.xml",
+        "source": "C:\\Users\\Rogelio\\.android\\build-cache\\badcbe18297091f38a79e5458341646a18cbc257\\output\\res\\layout\\tw__tweet_compact.xml"
     },
     {
         "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
@@ -116,6 +132,10 @@
         "source": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\src\\main\\res\\layout\\fragment_tour.xml"
     },
     {
+        "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login_google.xml",
+        "source": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\src\\main\\res\\layout\\activity_login_google.xml"
+    },
+    {
         "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_green_point_register.xml",
         "source": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\src\\main\\res\\layout\\activity_green_point_register.xml"
     },
@@ -140,12 +160,24 @@
         "source": "C:\\Users\\Rogelio\\.android\\build-cache\\6d3f0a98d88e983e6e33b9ee69f2ea1c07c64d73\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
     },
     {
+        "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tw__activity_oauth.xml",
+        "source": "C:\\Users\\Rogelio\\.android\\build-cache\\7532ff3119e4049de8288eb2aea940a36a2f6d6b\\output\\res\\layout\\tw__activity_oauth.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tw__composer_view.xml",
+        "source": "C:\\Users\\Rogelio\\.android\\build-cache\\21958ba26fe08e063580ce86e8cdf6f58bccdc4e\\output\\res\\layout\\tw__composer_view.xml"
+    },
+    {
         "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_text_input_password_icon.xml",
         "source": "C:\\Users\\Rogelio\\.android\\build-cache\\2715866d6b7b5b3f07b31175ef47aa62322a87e5\\output\\res\\layout\\design_text_input_password_icon.xml"
     },
     {
         "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_password_restore.xml",
         "source": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\src\\main\\res\\layout\\activity_password_restore.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tw__tweet.xml",
+        "source": "C:\\Users\\Rogelio\\.android\\build-cache\\badcbe18297091f38a79e5458341646a18cbc257\\output\\res\\layout\\tw__tweet.xml"
     },
     {
         "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
@@ -176,6 +208,10 @@
         "source": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\src\\main\\res\\layout\\activity_dashboard.xml"
     },
     {
+        "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tw__tweet_quote.xml",
+        "source": "C:\\Users\\Rogelio\\.android\\build-cache\\badcbe18297091f38a79e5458341646a18cbc257\\output\\res\\layout\\tw__tweet_quote.xml"
+    },
+    {
         "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_register.xml",
         "source": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\src\\main\\res\\layout\\activity_register.xml"
     },
@@ -184,8 +220,16 @@
         "source": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\src\\main\\res\\layout\\activity_edit_profile.xml"
     },
     {
+        "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tw__activity_composer.xml",
+        "source": "C:\\Users\\Rogelio\\.android\\build-cache\\21958ba26fe08e063580ce86e8cdf6f58bccdc4e\\output\\res\\layout\\tw__activity_composer.xml"
+    },
+    {
         "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
         "source": "C:\\Users\\Rogelio\\.android\\build-cache\\6d3f0a98d88e983e6e33b9ee69f2ea1c07c64d73\\output\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login2.xml",
+        "source": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\src\\main\\res\\layout\\activity_login2.xml"
     },
     {
         "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
@@ -244,6 +288,10 @@
         "source": "C:\\Users\\Rogelio\\.android\\build-cache\\6d3f0a98d88e983e6e33b9ee69f2ea1c07c64d73\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
     },
     {
+        "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tw__action_bar.xml",
+        "source": "C:\\Users\\Rogelio\\.android\\build-cache\\badcbe18297091f38a79e5458341646a18cbc257\\output\\res\\layout\\tw__action_bar.xml"
+    },
+    {
         "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
         "source": "C:\\Users\\Rogelio\\.android\\build-cache\\6d3f0a98d88e983e6e33b9ee69f2ea1c07c64d73\\output\\res\\layout\\abc_action_bar_title_item.xml"
     },
@@ -270,5 +318,13 @@
     {
         "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
         "source": "C:\\Users\\Rogelio\\.android\\build-cache\\6d3f0a98d88e983e6e33b9ee69f2ea1c07c64d73\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tw__player_activity.xml",
+        "source": "C:\\Users\\Rogelio\\.android\\build-cache\\badcbe18297091f38a79e5458341646a18cbc257\\output\\res\\layout\\tw__player_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tw__video_control.xml",
+        "source": "C:\\Users\\Rogelio\\.android\\build-cache\\badcbe18297091f38a79e5458341646a18cbc257\\output\\res\\layout\\tw__video_control.xml"
     }
 ]

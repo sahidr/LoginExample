@@ -1,6 +1,10 @@
 package com.idbcgroup.loginexample;
 
+import android.content.BroadcastReceiver;
+import android.content.Context;
 import android.content.Intent;
+import android.content.IntentFilter;
+import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.graphics.DashPathEffect;
 import android.graphics.Paint;
@@ -11,10 +15,12 @@ import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 
+import com.google.firebase.auth.FirebaseAuth;
 import com.jjoe64.graphview.GraphView;
 import com.jjoe64.graphview.series.BarGraphSeries;
 import com.jjoe64.graphview.series.DataPoint;
@@ -25,6 +31,7 @@ public class DashboardActivity extends AppCompatActivity {
     private ImageButton back;
     private ImageButton edit;
     private GraphView graph;
+    private Button glogout;
 
 
     @Override
@@ -37,6 +44,7 @@ public class DashboardActivity extends AppCompatActivity {
 
         back = (ImageButton) findViewById(R.id.back);
         edit = (ImageButton) findViewById(R.id.edit);
+        glogout = (Button) findViewById(R.id.glogout);
 
         graph = (GraphView) findViewById(R.id.graph);
 
@@ -72,6 +80,21 @@ public class DashboardActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent i = new Intent(DashboardActivity.this, EditProfile.class);
                 startActivity(i);
+            }
+        });
+
+        glogout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                SharedPreferences.Editor preferences = getSharedPreferences("User_Auth", 0).edit().clear();
+                preferences.apply();
+                Intent i = new Intent(DashboardActivity.this,MainActivity.class);
+                i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
+                i.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                startActivity(i);
+                FirebaseAuth.getInstance().signOut();
+                finish();
             }
         });
 

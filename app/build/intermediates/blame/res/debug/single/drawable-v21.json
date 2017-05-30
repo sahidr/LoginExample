@@ -28,6 +28,10 @@
         "source": "C:\\Users\\Rogelio\\.android\\build-cache\\6d3f0a98d88e983e6e33b9ee69f2ea1c07c64d73\\output\\res\\drawable-v21\\notification_action_background.xml"
     },
     {
+        "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\tw__like_action.xml",
+        "source": "C:\\Users\\Rogelio\\.android\\build-cache\\badcbe18297091f38a79e5458341646a18cbc257\\output\\res\\drawable-v21\\tw__like_action.xml"
+    },
+    {
         "merged": "C:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_edit_text_material.xml",
         "source": "C:\\Users\\Rogelio\\.android\\build-cache\\6d3f0a98d88e983e6e33b9ee69f2ea1c07c64d73\\output\\res\\drawable-v21\\abc_edit_text_material.xml"
     }

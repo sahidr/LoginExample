@@ -10,14 +10,13 @@
         android:id="@+id/password"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="216dp"
         android:ems="10"
         android:hint="Password"
         android:inputType="textPassword"
         tools:layout_editor_absoluteX="73dp"
-        tools:layout_editor_absoluteY="232dp" />
+        tools:layout_editor_absoluteY="232dp"
+        android:layout_below="@+id/phone"
+        android:layout_centerHorizontal="true" />
 
     <TextView
         android:id="@+id/logo"
@@ -38,14 +37,15 @@
         android:layout_centerHorizontal="true"
         android:visibility="invisible"/>
 
+
     <Button
         android:id="@+id/submit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Sign In"
-        android:layout_alignParentBottom="true"
+        android:layout_alignTop="@+id/rpwd"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="81dp" />
+        android:layout_marginTop="28dp" />
 
     <Button
         android:id="@+id/signup"
@@ -53,8 +53,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Sign Up"
-        android:layout_marginBottom="17dp"
-        android:layout_alignParentBottom="true"
+        android:layout_marginTop="26dp"
+        android:layout_below="@+id/submit"
         android:layout_alignLeft="@+id/submit"
         android:layout_alignStart="@+id/submit" />
 
@@ -62,20 +62,21 @@
         android:id="@+id/rpwd"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/submit"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="40dp"
-        android:text="Restore Password" />
+        android:text="Restore Password"
+        android:layout_below="@+id/password"
+        android:layout_alignLeft="@+id/logo"
+        android:layout_alignStart="@+id/logo"
+        android:layout_marginTop="25dp" />
 
     <EditText
         android:id="@+id/phone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/password"
-        android:layout_alignLeft="@+id/password"
-        android:layout_alignStart="@+id/password"
-        android:layout_marginBottom="42dp"
         android:ems="10"
         android:hint="Email"
-        android:inputType="phone" />
+        android:inputType="phone"
+        android:layout_below="@+id/logo"
+        android:layout_alignLeft="@+id/password"
+        android:layout_alignStart="@+id/password"
+        android:layout_marginTop="36dp" />
 </RelativeLayout>
