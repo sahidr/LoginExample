@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:2:1-68:12
+ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:2:1-69:12
 	package
 		ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:3:5-41
 		INJECTED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml
@@ -58,12 +58,9 @@ ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\Andr
 	android:name
 		ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:13:19-57
 application
-ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:21:5-66:19
+ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:21:5-67:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Rogelio\.android\build-cache\c4ab4676cc9f522ee8e9a771438e45e9953bfef5\output\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:design:25.3.1] C:\Users\Rogelio\.android\build-cache\2715866d6b7b5b3f07b31175ef47aa62322a87e5\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Rogelio\.android\build-cache\6d3f0a98d88e983e6e33b9ee69f2ea1c07c64d73\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Rogelio\.android\build-cache\ab63f60085cdcfdd48b71db6f12914caa1c0173a\output\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Rogelio\.android\build-cache\feb1a5db1a30a89cc6cb6d69e400a583303daf45\output\AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:transition:25.3.1] C:\Users\Rogelio\.android\build-cache\7886c061a04013afea8d22481b4ab95996ddd670\output\AndroidManifest.xml:26:5-20
 MERGED from [com.google.android.gms:play-services-maps:9.6.1] C:\Users\Rogelio\.android\build-cache\f5df636fd141f7a1228c7c58027fd389797246ce\output\AndroidManifest.xml:24:5-19
 MERGED from [com.jjoe64:graphview:4.2.1] C:\Users\Rogelio\.android\build-cache\d37f6931b6fdfc2d2d16ec5867722048a17a2a0b\output\AndroidManifest.xml:11:5-12:19
@@ -83,6 +80,12 @@ MERGED from [com.mopub:mopub-sdk-interstitial:4.11.0] C:\Users\Rogelio\.android\
 MERGED from [com.mopub:mopub-sdk-native-video:4.11.0] C:\Users\Rogelio\.android\build-cache\c0ba162d62276246a875ec648f1382fe547639a7\output\AndroidManifest.xml:11:5-20
 MERGED from [com.mopub:mopub-sdk-native-static:4.11.0] C:\Users\Rogelio\.android\build-cache\48d58ef7c1937b98b976e43cc35a5dac26bab9cf\output\AndroidManifest.xml:11:5-20
 MERGED from [com.mopub:mopub-sdk-base:4.11.0] C:\Users\Rogelio\.android\build-cache\ed94977c8d5f4b54608e5e5c09eb5dd3637fcbd9\output\AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.android:facebook-android-sdk:4.23.0] C:\Users\Rogelio\.android\build-cache\58996ee3c1123996de77a5aeaa6b770af153a768\output\AndroidManifest.xml:28:5-48:19
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Rogelio\.android\build-cache\6d3f0a98d88e983e6e33b9ee69f2ea1c07c64d73\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Rogelio\.android\build-cache\ab63f60085cdcfdd48b71db6f12914caa1c0173a\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Rogelio\.android\build-cache\feb1a5db1a30a89cc6cb6d69e400a583303daf45\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\Rogelio\.android\build-cache\63834efb08bd4af2baba893223f514ec897cc6f6\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:customtabs:25.3.1] C:\Users\Rogelio\.android\build-cache\b759937fd16277130cad7b52132b5d58760c7c8e\output\AndroidManifest.xml:26:5-20
 MERGED from [com.google.firebase:firebase-core:9.6.1] C:\Users\Rogelio\.android\build-cache\80fe7de95b042e1cd8ab54cea277ef46ef3e6896\output\AndroidManifest.xml:5:5-20
 MERGED from [com.google.firebase:firebase-analytics:9.6.1] C:\Users\Rogelio\.android\build-cache\2a6cf7b5a5ba009cef7f3675a4f23aa76bd85f7f\output\AndroidManifest.xml:24:5-33:19
 MERGED from [com.google.firebase:firebase-analytics-impl:9.6.1] C:\Users\Rogelio\.android\build-cache\11ce3ed70422aa54617ad8b5aa3e03fe1cf03b16\output\AndroidManifest.xml:24:5-28:19
@@ -176,13 +179,14 @@ activity#com.idbcgroup.loginexample.GreenPointRegisterActivity
 ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:65:9-64
 	android:name
 		ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:65:19-61
+activity#com.idbcgroup.loginexample.TwitterLogin
+ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:66:9-59
+	android:name
+		ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:66:19-47
 uses-sdk
 INJECTED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Rogelio\.android\build-cache\c4ab4676cc9f522ee8e9a771438e45e9953bfef5\output\AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support:design:25.3.1] C:\Users\Rogelio\.android\build-cache\2715866d6b7b5b3f07b31175ef47aa62322a87e5\output\AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Rogelio\.android\build-cache\6d3f0a98d88e983e6e33b9ee69f2ea1c07c64d73\output\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Rogelio\.android\build-cache\ab63f60085cdcfdd48b71db6f12914caa1c0173a\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Rogelio\.android\build-cache\feb1a5db1a30a89cc6cb6d69e400a583303daf45\output\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:transition:25.3.1] C:\Users\Rogelio\.android\build-cache\7886c061a04013afea8d22481b4ab95996ddd670\output\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-maps:9.6.1] C:\Users\Rogelio\.android\build-cache\f5df636fd141f7a1228c7c58027fd389797246ce\output\AndroidManifest.xml:23:5-42
 MERGED from [com.jjoe64:graphview:4.2.1] C:\Users\Rogelio\.android\build-cache\d37f6931b6fdfc2d2d16ec5867722048a17a2a0b\output\AndroidManifest.xml:7:5-9:41
@@ -206,6 +210,12 @@ MERGED from [com.mopub:mopub-sdk-native-static:4.11.0] C:\Users\Rogelio\.android
 MERGED from [com.mopub:mopub-sdk-base:4.11.0] C:\Users\Rogelio\.android\build-cache\ed94977c8d5f4b54608e5e5c09eb5dd3637fcbd9\output\AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Rogelio\.android\build-cache\853fab4f26e07de1a6b54238edfa03e524a376e0\output\AndroidManifest.xml:20:5-43
 MERGED from [com.google.android.exoplayer:exoplayer:r1.5.6] C:\Users\Rogelio\.android\build-cache\aa6dcb91d5f76b61cf18c7cdc1fa0d5e0b0258d9\output\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-android-sdk:4.23.0] C:\Users\Rogelio\.android\build-cache\58996ee3c1123996de77a5aeaa6b770af153a768\output\AndroidManifest.xml:24:5-26:41
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Rogelio\.android\build-cache\6d3f0a98d88e983e6e33b9ee69f2ea1c07c64d73\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Rogelio\.android\build-cache\ab63f60085cdcfdd48b71db6f12914caa1c0173a\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Rogelio\.android\build-cache\feb1a5db1a30a89cc6cb6d69e400a583303daf45\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\Rogelio\.android\build-cache\63834efb08bd4af2baba893223f514ec897cc6f6\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:customtabs:25.3.1] C:\Users\Rogelio\.android\build-cache\b759937fd16277130cad7b52132b5d58760c7c8e\output\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-core:9.6.1] C:\Users\Rogelio\.android\build-cache\80fe7de95b042e1cd8ab54cea277ef46ef3e6896\output\AndroidManifest.xml:4:5-42
 MERGED from [com.google.firebase:firebase-analytics:9.6.1] C:\Users\Rogelio\.android\build-cache\2a6cf7b5a5ba009cef7f3675a4f23aa76bd85f7f\output\AndroidManifest.xml:17:5-42
 MERGED from [com.google.firebase:firebase-analytics-impl:9.6.1] C:\Users\Rogelio\.android\build-cache\11ce3ed70422aa54617ad8b5aa3e03fe1cf03b16\output\AndroidManifest.xml:17:5-42
@@ -229,11 +239,13 @@ MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Rogelio\.androi
 		INJECTED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml
 meta-data#android.support.VERSION
 ADDED from [com.android.support:design:25.3.1] C:\Users\Rogelio\.android\build-cache\2715866d6b7b5b3f07b31175ef47aa62322a87e5\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Rogelio\.android\build-cache\7886c061a04013afea8d22481b4ab95996ddd670\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Rogelio\.android\build-cache\853fab4f26e07de1a6b54238edfa03e524a376e0\output\AndroidManifest.xml:22:5-24:34
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Rogelio\.android\build-cache\6d3f0a98d88e983e6e33b9ee69f2ea1c07c64d73\output\AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Rogelio\.android\build-cache\ab63f60085cdcfdd48b71db6f12914caa1c0173a\output\AndroidManifest.xml:22:5-24:34
 MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Rogelio\.android\build-cache\feb1a5db1a30a89cc6cb6d69e400a583303daf45\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:transition:25.3.1] C:\Users\Rogelio\.android\build-cache\7886c061a04013afea8d22481b4ab95996ddd670\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Rogelio\.android\build-cache\853fab4f26e07de1a6b54238edfa03e524a376e0\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\Rogelio\.android\build-cache\63834efb08bd4af2baba893223f514ec897cc6f6\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:customtabs:25.3.1] C:\Users\Rogelio\.android\build-cache\b759937fd16277130cad7b52132b5d58760c7c8e\output\AndroidManifest.xml:22:5-24:34
 MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Rogelio\.android\build-cache\d31df1c0bd3775b80ea97d179ff4ba1d2d3d602e\output\AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Rogelio\.android\build-cache\53a29b2f09f52fc2a2f7761c7ee1c8022bf710f0\output\AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Rogelio\.android\build-cache\8979b32960c00ea0d19152b431f57cb244709870\output\AndroidManifest.xml:25:5-27:34
@@ -340,6 +352,26 @@ ADDED from [com.twitter.sdk.android:twitter-mopub:3.0.0] C:\Users\Rogelio\.andro
 		ADDED from [com.twitter.sdk.android:twitter-mopub:3.0.0] C:\Users\Rogelio\.android\build-cache\796438e5e9e560b90ed69b6823167b602206ad12\output\AndroidManifest.xml:39:13-74
 	android:name
 		ADDED from [com.twitter.sdk.android:twitter-mopub:3.0.0] C:\Users\Rogelio\.android\build-cache\796438e5e9e560b90ed69b6823167b602206ad12\output\AndroidManifest.xml:38:13-72
+activity#com.facebook.FacebookActivity
+ADDED from [com.facebook.android:facebook-android-sdk:4.23.0] C:\Users\Rogelio\.android\build-cache\58996ee3c1123996de77a5aeaa6b770af153a768\output\AndroidManifest.xml:29:9-32:66
+	android:configChanges
+		ADDED from [com.facebook.android:facebook-android-sdk:4.23.0] C:\Users\Rogelio\.android\build-cache\58996ee3c1123996de77a5aeaa6b770af153a768\output\AndroidManifest.xml:31:13-96
+	android:theme
+		ADDED from [com.facebook.android:facebook-android-sdk:4.23.0] C:\Users\Rogelio\.android\build-cache\58996ee3c1123996de77a5aeaa6b770af153a768\output\AndroidManifest.xml:32:13-63
+	android:name
+		ADDED from [com.facebook.android:facebook-android-sdk:4.23.0] C:\Users\Rogelio\.android\build-cache\58996ee3c1123996de77a5aeaa6b770af153a768\output\AndroidManifest.xml:30:13-57
+activity#com.facebook.CustomTabMainActivity
+ADDED from [com.facebook.android:facebook-android-sdk:4.23.0] C:\Users\Rogelio\.android\build-cache\58996ee3c1123996de77a5aeaa6b770af153a768\output\AndroidManifest.xml:33:9-71
+	android:name
+		ADDED from [com.facebook.android:facebook-android-sdk:4.23.0] C:\Users\Rogelio\.android\build-cache\58996ee3c1123996de77a5aeaa6b770af153a768\output\AndroidManifest.xml:33:19-68
+provider#com.facebook.internal.FacebookInitProvider
+ADDED from [com.facebook.android:facebook-android-sdk:4.23.0] C:\Users\Rogelio\.android\build-cache\58996ee3c1123996de77a5aeaa6b770af153a768\output\AndroidManifest.xml:44:9-47:40
+	android:authorities
+		ADDED from [com.facebook.android:facebook-android-sdk:4.23.0] C:\Users\Rogelio\.android\build-cache\58996ee3c1123996de77a5aeaa6b770af153a768\output\AndroidManifest.xml:46:13-72
+	android:exported
+		ADDED from [com.facebook.android:facebook-android-sdk:4.23.0] C:\Users\Rogelio\.android\build-cache\58996ee3c1123996de77a5aeaa6b770af153a768\output\AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-android-sdk:4.23.0] C:\Users\Rogelio\.android\build-cache\58996ee3c1123996de77a5aeaa6b770af153a768\output\AndroidManifest.xml:45:13-70
 uses-permission#android.permission.WAKE_LOCK
 ADDED from [com.google.firebase:firebase-analytics:9.6.1] C:\Users\Rogelio\.android\build-cache\2a6cf7b5a5ba009cef7f3675a4f23aa76bd85f7f\output\AndroidManifest.xml:22:5-67
 MERGED from [com.google.firebase:firebase-analytics-impl:9.6.1] C:\Users\Rogelio\.android\build-cache\11ce3ed70422aa54617ad8b5aa3e03fe1cf03b16\output\AndroidManifest.xml:22:5-67

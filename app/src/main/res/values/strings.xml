@@ -6,7 +6,7 @@
     <!--    Tour    -->
     <string name="title_activity_tour">TourActivity</string>
     <string name="skip">Saltar</string>
-    <string name="register">Registrar</string>
+    <string name="sign_up">Registrar</string>
     <string name="welcome">Bienvenido a Canopy Verde</string>
     <string name="start">Comenzar</string>
     <string name="desc1">Description 1</string>
@@ -15,8 +15,25 @@
     <string name="title_activity_maps">Map</string>
     <string name="title_activity_user_profile" />
 
+    <!--    Login    -->
+    <string name="login">LOGIN</string>
+    <string name="username">Nombre de Usuario</string>
+    <string name="email">Correo</string>
+    <string name="password">Contraseña</string>
+    <string name="forgot">¿Olvidó su contraseña?</string>
+    <string name="social_sign_in">Inicia Sesión con tus Redes Sociales</string>
+    <string name="sign_in">Inicia Sesión</string>
+    <string name="or">O</string>
 
+    <!--    SignUp    -->
+    <string name="full_name">Nombre Completo</string>
+    <string name="confirm_password">Confirmar Contraseña</string>
+    <string name="social_sign_up">Regístrate con tus Redes Sociales</string>
+    <string name="register">Regístrate</string>
 
+    <!--    Restore Password    -->
+    <string name="restore">Recuperar Contraseña</string>
+    <string name="restore_msg">Introduzca el correo asociado a su cuenta</string>
 
     <!--    Styling    -->
     <string name="styled_map_demo_label">Styled Map</string>
@@ -32,9 +49,11 @@
     <string name="location_permission_denied">This sample requires location permission to enable the \'my location\' layer. Please try again and grant access to use the location.\nIf the permission has been permanently denied, it can be enabled from the System Settings &gt; Apps &gt; \'Google Maps API Demos\'.</string>
     <string name="permission_required_toast">Location permission is required for this demo.</string>
 
-
+    <!--    Twitter    -->
     <string name="com.twitter.sdk.android.CONSUMER_KEY">iCHjdzfv54dj9C59bZ4XMrMVP</string>
     <string name="com.twitter.sdk.android.CONSUMER_SECRET">0mGDtDTdOS1xkcAeMmBQYZW02srQ8WtbcQMtVhIiBZB9dVaRt6</string>
 
+    <!--    Facebook    -->
+    <string name="facebook_app_id">YOUR-UNIQUE-APP-ID</string>
 
 </resources>

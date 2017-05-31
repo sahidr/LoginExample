@@ -86,6 +86,7 @@
         <activity android:name="com.idbcgroup.loginexample.CameraActivity" />
         <activity android:name="com.idbcgroup.loginexample.EditProfile" />
         <activity android:name="com.idbcgroup.loginexample.GreenPointRegisterActivity" />
+        <activity android:name="com.idbcgroup.loginexample.TwitterLogin" />
         <activity
             android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
             android:excludeFromRecents="true"
