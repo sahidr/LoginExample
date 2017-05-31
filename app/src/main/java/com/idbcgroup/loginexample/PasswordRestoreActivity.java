@@ -5,10 +5,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 public class PasswordRestoreActivity extends AppCompatActivity {
 
     private Button recover;
+    private ImageButton back;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -16,15 +18,14 @@ public class PasswordRestoreActivity extends AppCompatActivity {
         setContentView(R.layout.activity_password_restore);
 
         recover = (Button) findViewById(R.id.recover);
-
-        recover.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent i = new Intent(PasswordRestoreActivity.this,LoginActivity.class);
-                i.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-                startActivity(i);
-                finish();
-            }
-        });
+        back = (ImageButton) findViewById(R.id.back);
     }
+
+    public void backToLogin (View view){
+
+        startActivity(new Intent(PasswordRestoreActivity.this,LoginActivity.class));
+        finish();
+    }
+
+
 }

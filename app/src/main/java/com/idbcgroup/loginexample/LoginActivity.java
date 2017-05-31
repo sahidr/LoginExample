@@ -142,7 +142,6 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
 
-
     }
 
     @Override
@@ -231,5 +230,9 @@ public class LoginActivity extends AppCompatActivity {
                 });
     }
 
+
+    public void register(View view){
+        startActivity(new Intent(LoginActivity.this,RegisterActivity.class));
+    }
 
 }

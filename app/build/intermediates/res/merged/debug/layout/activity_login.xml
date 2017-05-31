@@ -6,16 +6,7 @@
     android:layout_height="match_parent"
     tools:context="com.idbcgroup.loginexample.LoginActivity">
 
-    <com.google.android.gms.common.SignInButton
-        android:id="@+id/googleSignIn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/social"
-        android:layout_marginTop="29dp"
-        android:layout_alignLeft="@+id/twitterSignIn"
-        android:layout_alignStart="@+id/twitterSignIn"
-        android:layout_alignRight="@+id/twitterSignIn"
-        android:layout_alignEnd="@+id/twitterSignIn" />
+
     <EditText
         android:id="@+id/password"
         android:layout_width="wrap_content"
@@ -46,26 +37,26 @@
         android:layout_centerHorizontal="true"
         android:visibility="invisible"/>
 
-
     <Button
         android:id="@+id/submit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/sign_in"
+        android:layout_marginTop="23dp"
         android:layout_below="@+id/rpwd"
         android:layout_toRightOf="@+id/logo"
-        android:layout_toEndOf="@+id/logo"
-        android:layout_marginTop="14dp" />
+        android:layout_toEndOf="@+id/logo" />
 
     <Button
         android:id="@+id/signup"
         style="@style/Base.Widget.AppCompat.Button.Colored"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/register"
         android:layout_above="@+id/social"
         android:layout_toLeftOf="@+id/logo"
-        android:layout_toStartOf="@+id/logo" />
+        android:layout_toStartOf="@+id/logo"
+        android:onClick="register"
+        android:text="@string/register" />
 
     <TextView
         android:id="@+id/rpwd"
@@ -97,13 +88,38 @@
         android:layout_below="@+id/submit"
         android:layout_centerHorizontal="true" />
 
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/googleSignIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/social"
+        android:layout_alignLeft="@+id/password"
+        android:layout_alignStart="@+id/password"
+        android:layout_alignRight="@+id/password"
+        android:layout_alignEnd="@+id/password" />
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/facebookSignIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/googleSignIn"
+        android:layout_alignLeft="@+id/googleSignIn"
+        android:layout_alignStart="@+id/googleSignIn"
+        android:layout_alignRight="@+id/googleSignIn"
+        android:layout_alignEnd="@+id/googleSignIn" />
+
     <com.twitter.sdk.android.core.identity.TwitterLoginButton
         android:id="@+id/twitterSignIn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/googleSignIn"
-        android:layout_alignLeft="@+id/password"
-        android:layout_alignStart="@+id/password" />
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/facebookSignIn"
+        android:layout_alignLeft="@+id/facebookSignIn"
+        android:layout_alignStart="@+id/facebookSignIn"
+        android:layout_alignRight="@+id/facebookSignIn"
+        android:layout_alignEnd="@+id/facebookSignIn" />
 
 
 </RelativeLayout>

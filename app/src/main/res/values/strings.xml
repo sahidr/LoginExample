@@ -30,10 +30,13 @@
     <string name="confirm_password">Confirmar Contraseña</string>
     <string name="social_sign_up">Regístrate con tus Redes Sociales</string>
     <string name="register">Regístrate</string>
+    <string name="country">País</string>
+    <string name="city">Ciudad</string>
 
     <!--    Restore Password    -->
     <string name="restore">Recuperar Contraseña</string>
     <string name="restore_msg">Introduzca el correo asociado a su cuenta</string>
+    <string name="send">Enviar</string>
 
     <!--    Styling    -->
     <string name="styled_map_demo_label">Styled Map</string>

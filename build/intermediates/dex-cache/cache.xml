@@ -70,7 +70,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.3"
-        sha1="222b918e0abc45086c572b228d8ebe7632df704a">
+        sha1="d9a23532b8d6c86a86e972a751fde1e1f379166d">
         <dex dex="C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_256fd78cf69e27832e6ee6ecef24ff5b6c695bc4\classes.dex" />
     </item>
     <item
@@ -99,6 +99,15 @@
         revision="25.0.3"
         sha1="a1c351dc10b92d638da57f3a6513f87cfbdc9f83">
         <dex dex="C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\build\intermediates\pre-dexed\debug\classes_06858b9f524f36401f3adb0f7a0d198215edf047.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Rogelio\.android\build-cache\b759937fd16277130cad7b52132b5d58760c7c8e\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="807751a24cf96566fd8675517c94d8463cf364db">
+        <dex dex="C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c3ed84f6d31577c636684f730dd82493d90a024b\classes.dex" />
     </item>
     <item
         is-multidex="false"
@@ -162,6 +171,15 @@
         revision="25.0.3"
         sha1="92371d7303cc2411771e6d76bcd79119830e1fbf">
         <dex dex="C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\build\intermediates\pre-dexed\debug\classes_161e7dd4008f2bb57dee4021bc09069ef7e473e8.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Rogelio\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-tasks-1.4.0_bc03d8e923351b8fd5533a0b07b48ceeba9ba039\classes.dex" />
     </item>
     <item
         is-multidex="false"
@@ -263,6 +281,15 @@
         <dex dex="C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\build\intermediates\pre-dexed\debug\classes_50b8ee9e96f940e503a06fc29bc3ffae314c784b.jar" />
     </item>
     <item
+        is-multidex="true"
+        jar="C:\Users\Rogelio\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-applinks\1.4.0\8ad21bf21784dacce5f2043afb97218cc377e835\bolts-applinks-1.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
+        <dex dex="C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-applinks-1.4.0_25ed8d0f286c91e450fdd19ee763a0e0747a9bd2\classes.dex" />
+    </item>
+    <item
         is-multidex="false"
         jar="C:\Users\Rogelio\.android\build-cache\2715866d6b7b5b3f07b31175ef47aa62322a87e5\output\jars\classes.jar"
         jumboMode="false"
@@ -279,6 +306,15 @@
         revision="25.0.3"
         sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
         <dex dex="C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\build\intermediates\pre-dexed\debug\retrofit-2.1.0_2d5a63851d48106f2f6844b3a65781163b8568bf.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Rogelio\.android\build-cache\58996ee3c1123996de77a5aeaa6b770af153a768\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4504ae3ec47953f3d0c324dc66996aecfb7fbb5c">
+        <dex dex="C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6775f1a1d4c0350cab2cbb6a77efe04ae42cd6a3\classes.dex" />
     </item>
     <item
         is-multidex="false"
@@ -450,6 +486,15 @@
         revision="25.0.3"
         sha1="eccaaa9ffa6bb4bfbd2e870f01aaf69655d353be">
         <dex dex="C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\build\intermediates\pre-dexed\debug\classes_8109e04df5029a27688b172514f8bb66d0b403c1.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Rogelio\.android\build-cache\63834efb08bd4af2baba893223f514ec897cc6f6\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="914f5d3e3ace66080e59613708f06d129a222e25">
+        <dex dex="C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f78c15034cfbf09f7a7da5405b1104212d996507\classes.dex" />
     </item>
     <item
         is-multidex="false"
