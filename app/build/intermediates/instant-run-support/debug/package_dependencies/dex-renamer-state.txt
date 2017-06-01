@@ -1,4 +1,4 @@
-#Wed May 31 16:56:14 VET 2017
+#Thu Jun 01 10:58:05 VET 2017
 file.54=C\:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_bf72879901e9767865558db3065b36fe625158bf\\classes.dex
 file.53=C\:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_1a5025bf543f6b980198020f944a61629b37d2ba\\classes.dex
 file.52=C\:\\Users\\Rogelio\\AndroidStudioProjects\\LoginExample\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\picasso-2.5.2_aab670e3a1f71f43ddd0a3be8334632636e1a9cb\\classes.dex

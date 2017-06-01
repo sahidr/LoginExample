@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     tools:context="com.idbcgroup.loginexample.GreenPointRegisterActivity">
 
-
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
@@ -32,9 +31,9 @@
         android:id="@+id/location"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="29dp"
-        android:textSize="10sp"
-        android:text="Location"
+        android:layout_marginTop="12dp"
+        android:textSize="18sp"
+        android:text="@string/location"
         android:layout_below="@+id/greenpoint"
         android:layout_centerHorizontal="true" />
 
@@ -42,37 +41,57 @@
         android:id="@+id/save"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="@string/sign_up"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_marginBottom="34dp"
-        android:layout_marginEnd="28dp"
-        android:layout_marginRight="28dp"
-        android:text="SAVE" />
-
-    <Button
-        android:id="@+id/cancel"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/save"
-        android:layout_alignBottom="@+id/save"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginLeft="28dp"
-        android:layout_marginStart="28dp"
-        android:onClick="cancelClick"
-        android:text="CANCEL" />
+        android:layout_centerHorizontal="true" />
 
     <EditText
-        android:id="@+id/gp_description"
+        android:id="@+id/stemSize"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/greenpoint"
-        android:layout_alignStart="@+id/greenpoint"
+        android:ems="10"
+        android:hint="@string/stem_size"
+        android:inputType="number"
+        android:layout_below="@+id/canopySize"
+        android:layout_alignLeft="@+id/canopySize"
+        android:layout_alignStart="@+id/canopySize"
+        android:layout_alignRight="@+id/canopySize"
+        android:layout_alignEnd="@+id/canopySize" />
+
+    <EditText
+        android:id="@+id/height"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/stemSize"
+        android:layout_alignRight="@+id/stemSize"
+        android:layout_below="@+id/stemSize"
+        android:ems="10"
+        android:hint="@string/height"
+        android:inputType="number"
+        android:layout_alignLeft="@+id/stemSize"
+        android:layout_alignStart="@+id/stemSize" />
+
+    <AutoCompleteTextView
+        android:id="@+id/treeType"
+        android:hint="@string/tree_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/height"
+        android:layout_alignLeft="@+id/height"
+        android:layout_alignRight="@+id/height"
+        android:layout_alignStart="@+id/height"
+        android:layout_below="@+id/height" />
+
+    <EditText
+        android:id="@+id/canopySize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:hint="@string/canopy"
+        android:ems="10"
+        android:inputType="number"
         android:layout_below="@+id/location"
-        android:layout_marginTop="15dp"
-        android:ems="8"
-        android:hint="Description"
-        android:inputType="textPersonName" />
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>

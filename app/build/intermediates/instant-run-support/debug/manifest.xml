@@ -76,6 +76,9 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
         <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="c34fceebcd99ce98e741e9b53a3ae8fd5d859bbf" />
+        <meta-data
             android:name="com.facebook.sdk.ApplicationId"
             android:value="@string/facebook_app_id" />
 
@@ -89,7 +92,6 @@
         <activity android:name="com.idbcgroup.loginexample.CameraActivity" />
         <activity android:name="com.idbcgroup.loginexample.EditProfile" />
         <activity android:name="com.idbcgroup.loginexample.GreenPointRegisterActivity" />
-        <activity android:name="com.idbcgroup.loginexample.TwitterLogin" />
         <activity
             android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
             android:excludeFromRecents="true"
@@ -108,28 +110,6 @@ Service handling Google Sign-In user revocation. For apps that do not integrate 
             android:name="com.google.android.gms.common.api.GoogleApiActivity"
             android:exported="false"
             android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-        <activity
-            android:name="com.twitter.sdk.android.tweetui.PlayerActivity"
-            android:configChanges="keyboardHidden|orientation|screenSize"
-            android:theme="@style/MediaTheme" />
-        <activity
-            android:name="com.twitter.sdk.android.tweetui.GalleryActivity"
-            android:theme="@style/MediaTheme" />
-        <activity
-            android:name="com.twitter.sdk.android.tweetcomposer.ComposerActivity"
-            android:exported="false"
-            android:windowSoftInputMode="adjustResize|stateVisible" />
-
-        <service
-            android:name="com.twitter.sdk.android.tweetcomposer.TweetUploadService"
-            android:enabled="true"
-            android:exported="false" />
-
-        <activity
-            android:name="com.twitter.sdk.android.core.identity.OAuthActivity"
-            android:configChanges="orientation|screenSize"
-            android:excludeFromRecents="true"
-            android:exported="false" />
         <activity
             android:name="com.mopub.mobileads.MoPubActivity"
             android:configChanges="keyboardHidden|orientation|screenSize" />
@@ -159,6 +139,29 @@ Service handling Google Sign-In user revocation. For apps that do not integrate 
         <provider
             android:name="com.facebook.internal.FacebookInitProvider"
             android:authorities="com.idbcgroup.loginexample.FacebookInitProvider"
+            android:exported="false" />
+
+        <activity
+            android:name="com.twitter.sdk.android.tweetui.PlayerActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@style/MediaTheme" />
+        <activity
+            android:name="com.twitter.sdk.android.tweetui.GalleryActivity"
+            android:theme="@style/MediaTheme" />
+        <activity
+            android:name="com.twitter.sdk.android.tweetcomposer.ComposerActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize|stateVisible" />
+
+        <service
+            android:name="com.twitter.sdk.android.tweetcomposer.TweetUploadService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <activity
+            android:name="com.twitter.sdk.android.core.identity.OAuthActivity"
+            android:configChanges="orientation|screenSize"
+            android:excludeFromRecents="true"
             android:exported="false" />
 
         <receiver

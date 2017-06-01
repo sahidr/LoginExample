@@ -13,7 +13,7 @@
     <string name="desc2">Description 2</string>
     <string name="desc3">Final description START</string>
     <string name="title_activity_maps">Map</string>
-    <string name="title_activity_user_profile" />
+    <string name="title_activity_user_profile">User Profile</string>
 
     <!--    Login    -->
     <string name="login">LOGIN</string>
@@ -38,6 +38,13 @@
     <string name="restore_msg">Introduzca el correo asociado a su cuenta</string>
     <string name="send">Enviar</string>
 
+    <!--    Restore Password    -->
+    <string name="location">Ubicación</string>
+    <string name="canopy">Tamaño de la copa</string>
+    <string name="stem_size">Tamaño del tronco</string>
+    <string name="height">Altura</string>
+    <string name="tree_type">Tipo de árbol</string>
+
     <!--    Styling    -->
     <string name="styled_map_demo_label">Styled Map</string>
     <string name="styled_map_demo_description">Demonstrates how to style a map.</string>
@@ -58,5 +65,7 @@
 
     <!--    Facebook    -->
     <string name="facebook_app_id">YOUR-UNIQUE-APP-ID</string>
+    <string name="title_activity_user_profile2">UserProfile2</string>
+
 
 </resources>

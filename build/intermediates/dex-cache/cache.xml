@@ -70,7 +70,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.3"
-        sha1="d9a23532b8d6c86a86e972a751fde1e1f379166d">
+        sha1="52ca9654827fc2210cf634d45ca4fb24c6829495">
         <dex dex="C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_256fd78cf69e27832e6ee6ecef24ff5b6c695bc4\classes.dex" />
     </item>
     <item

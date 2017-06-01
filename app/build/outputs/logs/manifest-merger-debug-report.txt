@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:2:1-72:12
+ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:2:1-74:12
 	package
 		ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:3:5-41
 		INJECTED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml
@@ -58,7 +58,7 @@ ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\Andr
 	android:name
 		ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:13:19-57
 application
-ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:21:5-70:19
+ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:21:5-72:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Rogelio\.android\build-cache\c4ab4676cc9f522ee8e9a771438e45e9953bfef5\output\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:design:25.3.1] C:\Users\Rogelio\.android\build-cache\2715866d6b7b5b3f07b31175ef47aa62322a87e5\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:transition:25.3.1] C:\Users\Rogelio\.android\build-cache\7886c061a04013afea8d22481b4ab95996ddd670\output\AndroidManifest.xml:26:5-20
@@ -84,8 +84,8 @@ MERGED from [com.facebook.android:facebook-android-sdk:4.23.0] C:\Users\Rogelio\
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Rogelio\.android\build-cache\6d3f0a98d88e983e6e33b9ee69f2ea1c07c64d73\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Rogelio\.android\build-cache\ab63f60085cdcfdd48b71db6f12914caa1c0173a\output\AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Rogelio\.android\build-cache\feb1a5db1a30a89cc6cb6d69e400a583303daf45\output\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\Rogelio\.android\build-cache\63834efb08bd4af2baba893223f514ec897cc6f6\output\AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:customtabs:25.3.1] C:\Users\Rogelio\.android\build-cache\b759937fd16277130cad7b52132b5d58760c7c8e\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\Rogelio\.android\build-cache\63834efb08bd4af2baba893223f514ec897cc6f6\output\AndroidManifest.xml:26:5-20
 MERGED from [com.google.firebase:firebase-core:9.6.1] C:\Users\Rogelio\.android\build-cache\80fe7de95b042e1cd8ab54cea277ef46ef3e6896\output\AndroidManifest.xml:5:5-20
 MERGED from [com.google.firebase:firebase-analytics:9.6.1] C:\Users\Rogelio\.android\build-cache\2a6cf7b5a5ba009cef7f3675a4f23aa76bd85f7f\output\AndroidManifest.xml:24:5-33:19
 MERGED from [com.google.firebase:firebase-analytics-impl:9.6.1] C:\Users\Rogelio\.android\build-cache\11ce3ed70422aa54617ad8b5aa3e03fe1cf03b16\output\AndroidManifest.xml:24:5-28:19
@@ -112,83 +112,85 @@ MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Rogelio\.androi
 	android:theme
 		ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:27:9-40
 activity#com.idbcgroup.loginexample.MainActivity
-ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:29:9-37:20
+ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:28:9-36:20
 	android:screenOrientation
-		ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:31:13-49
+		ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:30:13-49
 	android:name
-		ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:30:13-41
+		ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:29:13-41
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:32:13-36:29
+ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:31:13-35:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:33:17-69
+ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:32:17-69
 	android:name
-		ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:33:25-66
+		ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:32:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:35:17-77
+ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:34:17-77
 	android:name
-		ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:35:27-74
+		ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:34:27-74
 activity#com.idbcgroup.loginexample.TourActivity
-ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:38:9-41:47
+ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:37:9-40:47
 	android:label
-		ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:40:13-56
+		ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:39:13-56
 	android:theme
-		ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:41:13-44
+		ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:40:13-44
 	android:name
-		ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:39:13-41
+		ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:38:13-41
 activity#com.idbcgroup.loginexample.RegisterActivity
-ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:42:9-54
+ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:41:9-54
 	android:name
-		ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:42:19-51
+		ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:41:19-51
 activity#com.idbcgroup.loginexample.LoginActivity
-ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:43:9-51
+ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:42:9-51
 	android:name
-		ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:43:19-48
+		ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:42:19-48
 activity#com.idbcgroup.loginexample.PasswordRestoreActivity
-ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:44:9-61
+ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:43:9-61
 	android:name
-		ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:44:19-58
+		ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:43:19-58
 meta-data#com.google.android.geo.API_KEY
-ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:53:9-55:55
+ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:52:9-54:55
 	android:value
-		ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:55:13-52
+		ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:54:13-52
 	android:name
-		ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:54:13-58
+		ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:53:13-58
+meta-data#io.fabric.ApiKey
+ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:55:9-57:72
+	android:value
+		ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:57:13-69
+	android:name
+		ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:56:13-44
 meta-data#com.facebook.sdk.ApplicationId
-ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:57:9-107
+ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:58:9-60:55
 	android:value
-		ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:57:66-105
+		ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:60:13-52
 	android:name
-		ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:57:20-65
+		ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:59:13-58
 activity#com.idbcgroup.loginexample.MapsActivity
-ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:59:9-61:59
+ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:62:9-64:59
 	android:label
-		ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:61:13-56
+		ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:64:13-56
 	android:name
-		ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:60:13-41
+		ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:63:13-41
 activity#com.idbcgroup.loginexample.UserProfile
-ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:62:9-65:47
+ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:65:9-68:47
 	android:label
-		ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:64:13-64
+		ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:67:13-64
 	android:theme
-		ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:65:13-44
+		ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:68:13-44
 	android:name
-		ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:63:13-40
+		ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:66:13-40
 activity#com.idbcgroup.loginexample.CameraActivity
-ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:66:9-52
+ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:69:9-52
 	android:name
-		ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:66:19-49
+		ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:69:19-49
 activity#com.idbcgroup.loginexample.EditProfile
-ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:67:9-49
+ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:70:9-49
 	android:name
-		ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:67:19-46
+		ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:70:19-46
 activity#com.idbcgroup.loginexample.GreenPointRegisterActivity
-ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:68:9-64
+ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:71:9-64
 	android:name
-		ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:68:19-61
-activity#com.idbcgroup.loginexample.TwitterLogin
-ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:69:9-50
-	android:name
-		ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:69:19-47
+		ADDED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml:71:19-61
 uses-sdk
 INJECTED from C:\Users\Rogelio\AndroidStudioProjects\LoginExample\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Rogelio\.android\build-cache\c4ab4676cc9f522ee8e9a771438e45e9953bfef5\output\AndroidManifest.xml:5:5-7:41
@@ -214,14 +216,14 @@ MERGED from [com.mopub:mopub-sdk-interstitial:4.11.0] C:\Users\Rogelio\.android\
 MERGED from [com.mopub:mopub-sdk-native-video:4.11.0] C:\Users\Rogelio\.android\build-cache\c0ba162d62276246a875ec648f1382fe547639a7\output\AndroidManifest.xml:7:5-9:41
 MERGED from [com.mopub:mopub-sdk-native-static:4.11.0] C:\Users\Rogelio\.android\build-cache\48d58ef7c1937b98b976e43cc35a5dac26bab9cf\output\AndroidManifest.xml:7:5-9:41
 MERGED from [com.mopub:mopub-sdk-base:4.11.0] C:\Users\Rogelio\.android\build-cache\ed94977c8d5f4b54608e5e5c09eb5dd3637fcbd9\output\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Rogelio\.android\build-cache\853fab4f26e07de1a6b54238edfa03e524a376e0\output\AndroidManifest.xml:20:5-43
 MERGED from [com.google.android.exoplayer:exoplayer:r1.5.6] C:\Users\Rogelio\.android\build-cache\aa6dcb91d5f76b61cf18c7cdc1fa0d5e0b0258d9\output\AndroidManifest.xml:24:5-26:41
 MERGED from [com.facebook.android:facebook-android-sdk:4.23.0] C:\Users\Rogelio\.android\build-cache\58996ee3c1123996de77a5aeaa6b770af153a768\output\AndroidManifest.xml:24:5-26:41
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Rogelio\.android\build-cache\6d3f0a98d88e983e6e33b9ee69f2ea1c07c64d73\output\AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Rogelio\.android\build-cache\ab63f60085cdcfdd48b71db6f12914caa1c0173a\output\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Rogelio\.android\build-cache\feb1a5db1a30a89cc6cb6d69e400a583303daf45\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\Rogelio\.android\build-cache\63834efb08bd4af2baba893223f514ec897cc6f6\output\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:customtabs:25.3.1] C:\Users\Rogelio\.android\build-cache\b759937fd16277130cad7b52132b5d58760c7c8e\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\Rogelio\.android\build-cache\63834efb08bd4af2baba893223f514ec897cc6f6\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Rogelio\.android\build-cache\853fab4f26e07de1a6b54238edfa03e524a376e0\output\AndroidManifest.xml:20:5-43
 MERGED from [com.google.firebase:firebase-core:9.6.1] C:\Users\Rogelio\.android\build-cache\80fe7de95b042e1cd8ab54cea277ef46ef3e6896\output\AndroidManifest.xml:4:5-42
 MERGED from [com.google.firebase:firebase-analytics:9.6.1] C:\Users\Rogelio\.android\build-cache\2a6cf7b5a5ba009cef7f3675a4f23aa76bd85f7f\output\AndroidManifest.xml:17:5-42
 MERGED from [com.google.firebase:firebase-analytics-impl:9.6.1] C:\Users\Rogelio\.android\build-cache\11ce3ed70422aa54617ad8b5aa3e03fe1cf03b16\output\AndroidManifest.xml:17:5-42
@@ -246,12 +248,12 @@ MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Rogelio\.androi
 meta-data#android.support.VERSION
 ADDED from [com.android.support:design:25.3.1] C:\Users\Rogelio\.android\build-cache\2715866d6b7b5b3f07b31175ef47aa62322a87e5\output\AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:transition:25.3.1] C:\Users\Rogelio\.android\build-cache\7886c061a04013afea8d22481b4ab95996ddd670\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Rogelio\.android\build-cache\853fab4f26e07de1a6b54238edfa03e524a376e0\output\AndroidManifest.xml:22:5-24:34
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Rogelio\.android\build-cache\6d3f0a98d88e983e6e33b9ee69f2ea1c07c64d73\output\AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Rogelio\.android\build-cache\ab63f60085cdcfdd48b71db6f12914caa1c0173a\output\AndroidManifest.xml:22:5-24:34
 MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Rogelio\.android\build-cache\feb1a5db1a30a89cc6cb6d69e400a583303daf45\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\Rogelio\.android\build-cache\63834efb08bd4af2baba893223f514ec897cc6f6\output\AndroidManifest.xml:22:5-24:34
 MERGED from [com.android.support:customtabs:25.3.1] C:\Users\Rogelio\.android\build-cache\b759937fd16277130cad7b52132b5d58760c7c8e\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\Rogelio\.android\build-cache\63834efb08bd4af2baba893223f514ec897cc6f6\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Rogelio\.android\build-cache\853fab4f26e07de1a6b54238edfa03e524a376e0\output\AndroidManifest.xml:22:5-24:34
 MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Rogelio\.android\build-cache\d31df1c0bd3775b80ea97d179ff4ba1d2d3d602e\output\AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Rogelio\.android\build-cache\53a29b2f09f52fc2a2f7761c7ee1c8022bf710f0\output\AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Rogelio\.android\build-cache\8979b32960c00ea0d19152b431f57cb244709870\output\AndroidManifest.xml:25:5-27:34
